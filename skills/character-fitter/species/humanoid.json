@@ -1,0 +1,165 @@
+{
+ "species": "humanoid",
+ "status": "implemented",
+ "frame": "glTF metres, Y up, body faces +Z; joints JSON is Blender (x, y, z) -> glTF (x, z, -y)",
+ "joints": {
+  "pelvis": "chau",
+  "belly": "bung",
+  "chest": "nguc",
+  "neck": "co",
+  "chin": "dau",
+  "head_top": "dinh_dau",
+  "shoulder": [
+   "vai_L",
+   "vai_R"
+  ],
+  "hip": [
+   "hong_L",
+   "hong_R"
+  ],
+  "knee": [
+   "goi_L",
+   "goi_R"
+  ],
+  "ankle": [
+   "co_chan_L",
+   "co_chan_R"
+  ]
+ },
+ "landmark_rules": {
+  "face_midline": "anatomy face_T_zone.midline_x_cm (the face is NOT on x = 0)",
+  "hairline_y": "brow + (brow - chin) / 2  (face thirds: hairline->brow = brow->nose base = nose base->chin)",
+  "eye_band": "anatomy eye_y_abs +- 1.5 cm, |x - midline| <= 5 cm, front half of the head \u2014 hair must leave it clear",
+  "ears": "anatomy ears.left/right (most_proud_point, lobe_bottom_point, top_point)",
+  "lower_garment_top_y": "pelvis + 0.6 * (belly - pelvis)  (hip-hugging belt line; --anchor-frac overrides)",
+  "upper_garment_centre_y": "chest joint + anatomy chest.peak_y_above_chest_joint_cm (bust / pec peak)"
+ },
+ "clearance_mm": {
+  "hair": 3,
+  "lower": 4,
+  "upper": 3,
+  "rigid": 4,
+  "face": 1
+ },
+ "budget_tris": {
+  "hair": 1600,
+  "lower": 1110,
+  "upper": 450,
+  "rigid": 600,
+  "face": 300
+ },
+ "regions": {
+  "hair": [
+   "eye_band",
+   "forehead",
+   "temple",
+   "ear",
+   "crown",
+   "nape",
+   "neck_shoulder"
+  ],
+  "lower": [
+   "waist",
+   "hips",
+   "glutes",
+   "groin",
+   "thigh",
+   "hand_arm"
+  ],
+  "upper": [
+   "chest",
+   "back",
+   "underarm",
+   "shoulder",
+   "hand_arm"
+  ],
+  "face": [
+   "face"
+  ]
+ },
+ "poses": [
+  "rest",
+  "walk",
+  "run",
+  "sit",
+  "crouch",
+  "arms_up",
+  "kick",
+  "twist",
+  "head_turn_down",
+  "lean_back"
+ ],
+ "required_poses": {
+  "hair": [
+   "rest",
+   "walk",
+   "run",
+   "sit",
+   "crouch",
+   "arms_up",
+   "kick",
+   "twist",
+   "head_turn_down",
+   "lean_back"
+  ],
+  "lower": [
+   "rest",
+   "walk",
+   "arms_up",
+   "twist",
+   "lean_back"
+  ],
+  "upper": [
+   "rest",
+   "walk",
+   "run",
+   "twist",
+   "lean_back"
+  ],
+  "rigid": [
+   "rest",
+   "walk"
+  ],
+  "face": [
+   "rest",
+   "walk",
+   "run",
+   "sit",
+   "crouch",
+   "arms_up",
+   "kick",
+   "twist",
+   "head_turn_down",
+   "lean_back"
+  ]
+ },
+ "pose_note": "lower garments in sit / crouch / kick / run are REPORTED, not gated: a skirt needs cloth bones or physics there (no fitter can make a rigid skirt follow a 90 deg thigh)",
+ "gates": {
+  "rest_max_depth_mm": 1.0,
+  "pose_max_depth_mm": 6.0,
+  "pose_max_penetrating_frac": 0.01,
+  "edge_stretch_max": 1.6,
+  "standoff_max_mm": {
+   "hair": 12,
+   "lower": 12,
+   "upper": 8,
+   "rigid": 15,
+   "face": 99
+  },
+  "standoff_note": "median gap between the asset's INNER surface and the skin it covers; above it the asset reads oversize (Boss 25/10). Hair 12: spiky shells are thick at the roots; upper 8: a bandeau is tight",
+  "face_clear": "eye_L/eye_R/nose rays (3 each) must not hit hair; mouth/cheeks reported (a beard covers them by design)",
+  "see_through_max_frac": 0.01,
+  "see_through_note": "rays from the skin a garment must hide (waist \u2192 buttock fold, under-bust \u2192 top edge), outward: a miss = skin visible. Boss 25/10 \u00abQu\u1ea7n l\u00f2i da \u1edf m\u00f4ng\u00bb",
+  "beard_standoff_max_mm": 6,
+  "beard_note": "Boss 25/10 \u00abr\u00e2u ch\u01b0a s\u00e1t v\u00e0o m\u1eb7t\u00bb: rays from jaw/cheeks/chin to the beard's inner surface",
+  "hair_hanging_front_max_frac": 0.15,
+  "hair_hanging_note": "Boss 25/10 \u00ab\u0111u\u00f4i t\u00f3c \u0111ang xoay b\u00ean tr\u00e1i m\u1eb7t\u00bb: free-hanging hair (below the eyes, > 4 cm off the skin) must be behind the ears; beards hug the jaw and are not counted",
+  "beard_thickness_max_mm": 18,
+  "beard_thickness_note": "p90 distance of beard verts (lower face, in front of the ears) from the skin \u2014 Boss 25/10 \u00d72 \u00abr\u00e2u ch\u01b0a s\u00e1t v\u00e0o m\u1eb7t\u00bb",
+  "beard_holes_max": 0,
+  "beard_holes_note": "2 mm ortho grid over the beard's own silhouette in 6 views (front, front-down -20, 3/4 L/R, sides): rays hitting skin/nothing before the beard. Boss 25/10 x2 \u00abr\u00e2u \u2026 l\u1ee7ng\u00bb \u2014 REPORT-ONLY (25/10): v6/v7/v8 all read 7-235 skin rays per oblique view from grazing strap edges; calibrate on the closed v9 beard (positive) vs v8 (known hole) before switching live",
+  "beard_holes_gate_live": false
+ },
+ "budget_note": "lower = skirt 900 + belt 150 + ornament 60 (outfit spec); the old 900 decimated the agent's belt + ornament away; hair 1600 (25/10): Boss chose the denser v1 hair + 5 big spikes + the sealed v4 beard",
+ "face_note": "kind 'face' = brows from eyebrow_fitter.py: placed on the skin, never moved by the fitter, pinned to the head bone; counted inside the hair budget"
+}

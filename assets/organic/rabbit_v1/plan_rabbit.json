@@ -1,0 +1,513 @@
+{
+ "subject": "adult rabbit, seated alert pose (compact mammal)",
+ "archetype": "seated compact mammal (lagomorph)",
+ "pose": "sitting on folded hindquarters, forepaws planted in front, head up facing +Y, ears upright with slight outward/back tilt",
+ "frame": {
+  "up": "Z",
+  "forward": "+Y",
+  "right": "+X",
+  "symmetry": "X=0",
+  "authoring_units": "arbitrary; normalized to height 1.0 (ear tip) after build"
+ },
+ "identity_cues": [
+  "long upright ears (~40% of total height), flattened, with pink inner face",
+  "compact rounded muzzle with pink nose and pale chin",
+  "large folded hindquarters forming a rounded haunch on each side",
+  "smaller, thinner forelimbs set close under the chest",
+  "long hind feet lying flat along the floor, toes forward",
+  "short round pale tail at the rear"
+ ],
+ "part_graph": {
+  "body": {
+   "children": [
+    "chest",
+    "haunch_R",
+    "haunch_L",
+    "tail"
+   ],
+   "relation": "root (pear-shaped trunk, heavy at rear)"
+  },
+  "chest": {
+   "children": [
+    "neck",
+    "foreleg_R",
+    "foreleg_L"
+   ],
+   "relation": "continuation"
+  },
+  "neck": {
+   "children": [
+    "head"
+   ],
+   "relation": "continuation (short, hidden by ruff)"
+  },
+  "head": {
+   "children": [
+    "muzzle",
+    "cheek_R",
+    "cheek_L",
+    "ear_R",
+    "ear_L",
+    "eye_R",
+    "eye_L"
+   ],
+   "relation": "continuation"
+  },
+  "muzzle": {
+   "children": [],
+   "relation": "attached swelling; nose = color region"
+  },
+  "ear": {
+   "children": [],
+   "relation": "thin appendage, root overlapped into skull top"
+  },
+  "haunch": {
+   "children": [
+    "hindfoot"
+   ],
+   "relation": "attached swelling (folded thigh)"
+  },
+  "hindfoot": {
+   "children": [],
+   "relation": "floor contact, long along +Y"
+  },
+  "foreleg": {
+   "children": [
+    "forepaw"
+   ],
+   "relation": "branch, thin"
+  },
+  "forepaw": {
+   "children": [],
+   "relation": "floor contact"
+  },
+  "tail": {
+   "children": [],
+   "relation": "attached swelling"
+  },
+  "eye": {
+   "children": [],
+   "relation": "separate tagged eyeball geometry (real volume), charcoal"
+  }
+ },
+ "materials": {
+  "fur": {
+   "color": [
+    0.66,
+    0.55,
+    0.44
+   ],
+   "roughness": 0.9
+  },
+  "cream": {
+   "color": [
+    0.92,
+    0.88,
+    0.8
+   ],
+   "roughness": 0.9
+  },
+  "inner_ear": {
+   "color": [
+    0.88,
+    0.66,
+    0.62
+   ],
+   "roughness": 0.9
+  },
+  "nose": {
+   "color": [
+    0.78,
+    0.52,
+    0.52
+   ],
+   "roughness": 0.7
+  },
+  "eye": {
+   "color": [
+    0.13,
+    0.13,
+    0.145
+   ],
+   "roughness": 0.35
+  }
+ },
+ "base_material": "fur",
+ "bounds": [
+  [
+   -0.3,
+   -0.42,
+   -0.005
+  ],
+  [
+   0.3,
+   0.4,
+   0.98
+  ]
+ ],
+ "resolution": 190,
+ "default_blend": 0.03,
+ "target_triangles": 1700,
+ "budget": [
+  1000,
+  3000
+ ],
+ "masses": [
+  {
+   "name": "body",
+   "type": "ellipsoid",
+   "center": [
+    0,
+    -0.08,
+    0.2
+   ],
+   "radii": [
+    0.17,
+    0.22,
+    0.19
+   ],
+   "euler": [
+    18,
+    0,
+    0
+   ],
+   "material": "fur"
+  },
+  {
+   "name": "chest",
+   "type": "ellipsoid",
+   "center": [
+    0,
+    0.08,
+    0.27
+   ],
+   "radii": [
+    0.12,
+    0.12,
+    0.15
+   ],
+   "euler": [
+    -15,
+    0,
+    0
+   ],
+   "blend": 0.06,
+   "material": "fur"
+  },
+  {
+   "name": "haunch_R",
+   "type": "ellipsoid",
+   "mirror": true,
+   "center": [
+    0.11,
+    -0.12,
+    0.15
+   ],
+   "radii": [
+    0.09,
+    0.17,
+    0.13
+   ],
+   "euler": [
+    10,
+    0,
+    0
+   ],
+   "blend": 0.04,
+   "material": "fur"
+  },
+  {
+   "name": "hindfoot_R",
+   "type": "superellipsoid",
+   "exponent": 2.4,
+   "mirror": true,
+   "center": [
+    0.13,
+    0.0,
+    0.028
+   ],
+   "radii": [
+    0.045,
+    0.16,
+    0.03
+   ],
+   "euler": [
+    0,
+    0,
+    -4
+   ],
+   "taper": 0.25,
+   "blend": 0.03,
+   "material": "fur"
+  },
+  {
+   "name": "foreleg_R",
+   "type": "capsule",
+   "mirror": true,
+   "a": [
+    0.065,
+    0.14,
+    0.24
+   ],
+   "b": [
+    0.065,
+    0.2,
+    0.04
+   ],
+   "r": [
+    0.04,
+    0.026
+   ],
+   "blend": 0.03,
+   "material": "fur"
+  },
+  {
+   "name": "forepaw_R",
+   "type": "ellipsoid",
+   "mirror": true,
+   "center": [
+    0.066,
+    0.225,
+    0.022
+   ],
+   "radii": [
+    0.032,
+    0.048,
+    0.022
+   ],
+   "blend": 0.015,
+   "material": "fur"
+  },
+  {
+   "name": "tail",
+   "type": "ellipsoid",
+   "center": [
+    0,
+    -0.33,
+    0.13
+   ],
+   "radii": [
+    0.06,
+    0.05,
+    0.06
+   ],
+   "blend": 0.02,
+   "material": "cream"
+  },
+  {
+   "name": "neck",
+   "type": "capsule",
+   "a": [
+    0,
+    0.07,
+    0.36
+   ],
+   "b": [
+    0,
+    0.15,
+    0.46
+   ],
+   "r": [
+    0.09,
+    0.08
+   ],
+   "blend": 0.05,
+   "material": "fur"
+  },
+  {
+   "name": "head",
+   "type": "ellipsoid",
+   "center": [
+    0,
+    0.19,
+    0.5
+   ],
+   "radii": [
+    0.105,
+    0.13,
+    0.1
+   ],
+   "euler": [
+    -12,
+    0,
+    0
+   ],
+   "blend": 0.04,
+   "material": "fur"
+  },
+  {
+   "name": "cheek_R",
+   "type": "ellipsoid",
+   "mirror": true,
+   "center": [
+    0.06,
+    0.24,
+    0.46
+   ],
+   "radii": [
+    0.05,
+    0.06,
+    0.05
+   ],
+   "blend": 0.03,
+   "material": "fur"
+  },
+  {
+   "name": "muzzle",
+   "type": "ellipsoid",
+   "center": [
+    0,
+    0.3,
+    0.455
+   ],
+   "radii": [
+    0.065,
+    0.06,
+    0.055
+   ],
+   "blend": 0.03,
+   "material": "fur"
+  },
+  {
+   "name": "ear_R",
+   "type": "ellipsoid",
+   "mirror": true,
+   "center": [
+    0.06,
+    0.12,
+    0.74
+   ],
+   "radii": [
+    0.045,
+    0.019,
+    0.18
+   ],
+   "euler": [
+    -12,
+    14,
+    0
+   ],
+   "taper": 0.25,
+   "blend": 0.025,
+   "material": "fur"
+  }
+ ],
+ "modifiers": [
+  {
+   "type": "dent",
+   "center": [
+    0,
+    0.335,
+    0.47
+   ],
+   "radius": 0.015,
+   "amount": 0.004,
+   "note": "philtrum notch above mouth"
+  },
+  {
+   "name": "haunch_bulge_R",
+   "mirror": true,
+   "type": "bulge",
+   "center": [
+    0.16,
+    -0.1,
+    0.14
+   ],
+   "radius": 0.09,
+   "amount": 0.035,
+   "note": "folded thigh reads as a separate rounded haunch"
+  }
+ ],
+ "color_regions": [
+  {
+   "name": "inner_ear_R",
+   "mirror": true,
+   "material": "inner_ear",
+   "center": [
+    0.06,
+    0.14,
+    0.75
+   ],
+   "radii": [
+    0.03,
+    0.02,
+    0.15
+   ],
+   "euler": [
+    -12,
+    14,
+    0
+   ],
+   "parts": [
+    "ear"
+   ]
+  },
+  {
+   "name": "nose",
+   "material": "nose",
+   "center": [
+    0,
+    0.355,
+    0.475
+   ],
+   "radii": [
+    0.025,
+    0.02,
+    0.018
+   ]
+  },
+  {
+   "name": "chin",
+   "material": "cream",
+   "center": [
+    0,
+    0.3,
+    0.41
+   ],
+   "radii": [
+    0.05,
+    0.06,
+    0.03
+   ]
+  },
+  {
+   "name": "bib",
+   "material": "cream",
+   "center": [
+    0,
+    0.2,
+    0.32
+   ],
+   "radii": [
+    0.06,
+    0.05,
+    0.07
+   ]
+  }
+ ],
+ "eyes": [
+  {
+   "name": "eye_R",
+   "mirror": true,
+   "center": [
+    0.085,
+    0.25,
+    0.53
+   ],
+   "radius": 0.024,
+   "scale": [
+    0.8,
+    1.0,
+    1.1
+   ],
+   "embed": 0.45,
+   "subdiv": 1,
+   "material": "eye"
+  }
+ ],
+ "notes": "Fur patches are color_regions on the existing surface (no overlay volumes). Eyes are the only extra geometry (real volume). Region 'parts' filter restricts the inner-ear color to faces whose nearest mass is an ear.",
+ "revisions": [
+  "r2: facets too dense/noisy -> target 2200->1700; belly patch blocky/too wide -> smaller, moved onto chest surface; muzzle +8%; haunch bulge modifier so folded thigh reads in side view",
+  "r3: per-face belly patch read as a jagged block -> replaced by a small throat bib under the chin; haunch bulge stronger (.035) and lower so folded thigh separates from trunk in side view; z-buffer renderer"
+ ]
+}

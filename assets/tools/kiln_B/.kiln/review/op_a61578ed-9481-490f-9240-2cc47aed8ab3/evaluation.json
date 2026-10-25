@@ -1,0 +1,478 @@
+{
+  "rebuildOptions": {
+    "indexPolicy": "indexed",
+    "gltfExporter": "legacy",
+    "geometryPolicy": "warn",
+    "optimize": "off",
+    "instance": "auto"
+  },
+  "requirements": {
+    "kind": "kiln.requirements-context.v1",
+    "requirements": {
+      "kind": "kiln.asset-requirements",
+      "schemaVersion": 1,
+      "labels": [],
+      "frame": {
+        "units": "m",
+        "forward": "+X",
+        "up": "+Y",
+        "right": "+Z",
+        "groundY": 0
+      },
+      "requirements": {}
+    },
+    "policyHash": "sha256:9efcec929bf8a510c7dd0e18b687381e3824ff3d26cc20307f601d17535e5f34",
+    "adviceHash": "sha256:ca1f59b45e82e712e06149909000e2bc37b8cf159af70e32847088cecf153268"
+  },
+  "artifactGlbSha256": "sha256:2e59342b32caad8937f15e7ebe1d396b05647594fcbc3b43e02ee103fe5dc3a9",
+  "tris": 108,
+  "meta": {
+    "name": "Settler watering can",
+    "indexBuffers": {
+      "version": "kiln.index-buffers.v1",
+      "policy": "indexed",
+      "primitivesConverted": 0,
+      "bufferBytesBefore": 5896,
+      "bufferBytesAfter": 5896
+    },
+    "tris": 108,
+    "primitiveUsage": {
+      "gameMaterial": 6,
+      "createRoot": 1,
+      "cylinderGeo": 2,
+      "createPart": 5,
+      "loftProfiles": 1,
+      "boxGeo": 1,
+      "pipeAlongPath": 1
+    },
+    "instanceability": {
+      "grade": "A",
+      "summary": "A (informational, not a QA verdict), set by 1 distinct material (A at 0-1). Also: 5 geometries; 5 draw calls.",
+      "reasons": [
+        "grade A set by 1 distinct material (A at 0-1)",
+        "1 material, 5 geometries, 5 draw calls"
+      ],
+      "metrics": {
+        "uniqueGeometries": 5,
+        "uniqueMaterials": 1,
+        "meshNodes": 5,
+        "meshInstances": 5,
+        "drawCalls": 5,
+        "textureCount": 0,
+        "skinned": false,
+        "transparentMaterials": 0,
+        "triangles": 108
+      }
+    },
+    "tier": "A",
+    "gltfValidation": {
+      "uri": "model.glb",
+      "mimeType": "model/gltf-binary",
+      "validatorVersion": "2.0.0-dev.3.10",
+      "validatedAt": "2026-10-22T03:08:56.153Z",
+      "issues": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 5,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_0"
+          },
+          {
+            "code": "UNUSED_OBJECT",
+            "message": "This object may be unused.",
+            "severity": 2,
+            "pointer": "/meshes/4/primitives/0/attributes/TEXCOORD_0"
+          }
+        ],
+        "truncated": false
+      },
+      "info": {
+        "version": "2.0",
+        "generator": "Kiln",
+        "resources": [
+          {
+            "pointer": "/buffers/0",
+            "mimeType": "application/gltf-buffer",
+            "storage": "glb",
+            "byteLength": 5896
+          }
+        ],
+        "animationCount": 0,
+        "materialCount": 1,
+        "hasMorphTargets": false,
+        "hasSkins": false,
+        "hasTextures": false,
+        "hasDefaultScene": true,
+        "drawCallCount": 5,
+        "totalVertexCount": 164,
+        "totalTriangleCount": 108,
+        "maxUVs": 1,
+        "maxInfluences": 0,
+        "maxAttributes": 3
+      }
+    },
+    "qaReport": {
+      "kind": "kiln.asset-qa-report",
+      "schemaVersion": 2,
+      "qaProfile": "asset.requirements.v1",
+      "policyHash": "sha256:9efcec929bf8a510c7dd0e18b687381e3824ff3d26cc20307f601d17535e5f34",
+      "adviceHash": "sha256:ca1f59b45e82e712e06149909000e2bc37b8cf159af70e32847088cecf153268",
+      "acceptance": "accepted",
+      "disposition": "pass",
+      "dimensions": {
+        "exportIntegrity": {
+          "status": "pass",
+          "findings": [],
+          "metrics": {
+            "gltfErrors": 0,
+            "gltfWarnings": 0
+          }
+        },
+        "requirementReadiness": {
+          "status": "pass",
+          "findings": []
+        },
+        "promptAlignment": {
+          "status": "notEvaluated",
+          "findings": []
+        },
+        "visualQuality": {
+          "status": "notEvaluated",
+          "findings": [
+            {
+              "code": "GEO_PART_SELF_INTERSECTION",
+              "disposition": "observe",
+              "dimension": "visualQuality",
+              "profile": "geometry.selfIntersection",
+              "message": "Parts \"Mesh_Body\" and \"Mesh_Strap\" occupy the same space: they share 0.0000560 m³, which is 33.3% of the smaller part.",
+              "affected": {
+                "node": "Mesh_Body"
+              },
+              "measurement": {
+                "name": "intersectionVolumeFraction",
+                "actual": 0.333333346,
+                "expected": 0.001
+              },
+              "repairText": "Check whether this overlap is intentional, such as a joined beam or embedded detail. For unintended solid overlap, move a part or use boolDiff to cut clearance. This observation does not test intersections within a single mesh, open surfaces, empty passage space or motion."
+            },
+            {
+              "code": "GEO_PART_SELF_INTERSECTION_UNMEASURED",
+              "disposition": "observe",
+              "dimension": "visualQuality",
+              "profile": "geometry.selfIntersection",
+              "message": "1 part-volume measurement was unavailable. 1 because a valid closed solid could not be measured (Not manifold): \"Mesh_Spout\". 2 overlapping part pairs include this part and were not measured. This part is not certified clear."
+            }
+          ],
+          "metrics": {
+            "partVolumeCoverage": "partial",
+            "partVolumeScope": "Visible static closed mesh pairs, except alternates on different LOD levels; excludes intra-mesh intersections, motion, open surfaces and usable passage space. Positive overlap may be intentional.",
+            "partVolumeEligibleParts": 5,
+            "partVolumeCandidatePairs": 3,
+            "partVolumeCandidatesLowerBound": false,
+            "partVolumePairsTested": 1,
+            "partVolumeUnmeasurablePairs": 2,
+            "partVolumePairsNotReached": 0,
+            "partVolumeLodAlternatePairs": 0,
+            "partVolumeSkipped": 1
+          }
+        },
+        "runtimeCost": {
+          "status": "pass",
+          "findings": [],
+          "metrics": {
+            "instanceabilityGrade": "A",
+            "instanceabilitySummary": "A (informational, not a QA verdict), set by 1 distinct material (A at 0-1). Also: 5 geometries; 5 draw calls.",
+            "uniqueGeometries": 5,
+            "uniqueMaterials": 1,
+            "meshNodes": 5,
+            "meshInstances": 5,
+            "drawCalls": 5,
+            "textureCount": 0,
+            "skinned": false,
+            "transparentMaterials": 0,
+            "triangles": 108,
+            "materialCount": 1,
+            "opaqueMaterials": 1,
+            "maskedMaterials": 0,
+            "blendedMaterials": 0,
+            "singleSidedMaterials": 1,
+            "doubleSidedMaterials": 0,
+            "texturedMaterials": 0,
+            "materialExtensionCount": 0,
+            "materialExtensionsUsed": "",
+            "imageCount": 0,
+            "maxImageDimension": 0,
+            "decodedImageBytesRgba8": 0,
+            "estimatedGpuBytesWithMipmaps": 0,
+            "blendedSurfaceAreaRatio": 0
+          }
+        }
+      },
+      "rules": [
+        {
+          "id": "UNIVERSAL_SCENE_CONTENT_RULE",
+          "mode": "enforce",
+          "status": "evaluated"
+        },
+        {
+          "id": "UNIVERSAL_FINITE_DATA_RULE",
+          "mode": "enforce",
+          "status": "evaluated"
+        },
+        {
+          "id": "UNIVERSAL_INDEX_RULE",
+          "mode": "enforce",
+          "status": "evaluated"
+        },
+        {
+          "id": "UNIVERSAL_ZERO_SCALE_RULE",
+          "mode": "enforce",
+          "status": "evaluated"
+        },
+        {
+          "id": "UNIVERSAL_NODE_NAME_RULE",
+          "mode": "enforce",
+          "status": "evaluated"
+        },
+        {
+          "id": "UNIVERSAL_ANIMATION_TARGET_RULE",
+          "mode": "enforce",
+          "status": "evaluated"
+        },
+        {
+          "id": "MATERIAL_PORTABLE_PBR_RULE",
+          "mode": "enforce",
+          "status": "evaluated"
+        },
+        {
+          "id": "ARCHITECTURE_PROFILE",
+          "mode": "enforce",
+          "status": "notRequested"
+        },
+        {
+          "id": "ARCHITECTURE_ADVISORY_PROFILE",
+          "mode": "observe",
+          "status": "notRequested"
+        },
+        {
+          "id": "CHARACTER_PROFILE",
+          "mode": "enforce",
+          "status": "notRequested"
+        },
+        {
+          "id": "CHARACTER_ADVISORY_PROFILE",
+          "mode": "observe",
+          "status": "notRequested"
+        },
+        {
+          "id": "VEHICLE_PROFILE",
+          "mode": "enforce",
+          "status": "notRequested"
+        },
+        {
+          "id": "VEHICLE_ADVISORY_PROFILE",
+          "mode": "observe",
+          "status": "notRequested"
+        },
+        {
+          "id": "VEHICLE_W6_ADVISORY_PROFILE",
+          "mode": "observe",
+          "status": "notRequested"
+        },
+        {
+          "id": "VEGETATION_CONTACT_PROFILE",
+          "mode": "enforce",
+          "status": "notRequested"
+        },
+        {
+          "id": "VEGETATION_ADVISORY_PROFILE",
+          "mode": "observe",
+          "status": "notRequested"
+        },
+        {
+          "id": "PROP_CAPABILITY_EXACT_PROFILE",
+          "mode": "enforce",
+          "status": "notRequested"
+        },
+        {
+          "id": "PROP_ADVISORY_PROFILE",
+          "mode": "observe",
+          "status": "notRequested"
+        },
+        {
+          "id": "ENVIRONMENT_EXACT_PROFILE",
+          "mode": "enforce",
+          "status": "notRequested"
+        },
+        {
+          "id": "ENVIRONMENT_ADVISORY_PROFILE",
+          "mode": "observe",
+          "status": "notRequested"
+        },
+        {
+          "id": "VFX_EXACT_PROFILE",
+          "mode": "enforce",
+          "status": "notRequested"
+        },
+        {
+          "id": "VFX_ADVISORY_PROFILE",
+          "mode": "observe",
+          "status": "notRequested"
+        },
+        {
+          "id": "MODULAR_JOIN_PROFILE",
+          "mode": "enforce",
+          "status": "notRequested"
+        },
+        {
+          "id": "ASSET_SCOPE_PROFILE",
+          "mode": "observe",
+          "status": "notRequested"
+        },
+        {
+          "id": "GEO_PART_SELF_INTERSECTION",
+          "mode": "observe",
+          "status": "notEvaluated"
+        },
+        {
+          "id": "GEO_PART_CONNECTIVITY",
+          "mode": "observe",
+          "status": "evaluated"
+        },
+        {
+          "id": "REF_COMPARISON",
+          "mode": "observe",
+          "status": "notEvaluated",
+          "reason": "Neutral measurement adapter remains to be qualified; no category fallback is used."
+        },
+        {
+          "id": "SWEEP_SELF_INTERSECTION",
+          "mode": "observe",
+          "status": "evaluated"
+        }
+      ],
+      "unevaluatedRequirements": []
+    }
+  },
+  "warnings": [],
+  "materialMetrics": {
+    "schemaVersion": 1,
+    "materialCount": 1,
+    "opaqueMaterials": 1,
+    "maskedMaterials": 0,
+    "blendedMaterials": 0,
+    "singleSidedMaterials": 1,
+    "doubleSidedMaterials": 0,
+    "texturedMaterials": 0,
+    "untexturedMaterials": 1,
+    "extensionCount": 0,
+    "extensionsUsed": [],
+    "materialExtensionCount": 0,
+    "materialExtensionsUsed": [],
+    "imageCount": 0,
+    "images": [],
+    "maxImageDimension": 0,
+    "totalImagePixels": 0,
+    "decodedImageBytesRgba8": 0,
+    "estimatedGpuBytesWithMipmaps": 0,
+    "totalSurfaceArea": 0.2538154121758455,
+    "blendedSurfaceArea": 0,
+    "blendedSurfaceAreaRatio": 0,
+    "blendedMaterialAreas": []
+  },
+  "integrationManifest": {
+    "schemaVersion": "kiln.integration-manifest.v1",
+    "analyzerVersion": 1,
+    "artifactSha256": "2e59342b32caad8937f15e7ebe1d396b05647594fcbc3b43e02ee103fe5dc3a9",
+    "units": "m",
+    "axes": {
+      "forward": "+X",
+      "up": "+Y",
+      "right": "+Z"
+    },
+    "bounds": {
+      "min": [
+        -0.27000001072883606,
+        -0.10499999672174454,
+        -0.10499999672174454
+      ],
+      "max": [
+        0.012990380637347698,
+        0.38050223768937164,
+        0.10499999672174454
+      ],
+      "size": [
+        0.28299039136618376,
+        0.4855022344111162,
+        0.20999999344348907
+      ],
+      "center": [
+        -0.12850481504574418,
+        0.13775112048381355,
+        0
+      ]
+    },
+    "pivot": {
+      "convention": "author-origin",
+      "position": [
+        0,
+        0,
+        0
+      ]
+    },
+    "ground": {
+      "groundY": 0,
+      "contactTolerance": 0.02,
+      "minY": -0.10499999672174454,
+      "offsetToGround": 0.10499999672174454,
+      "grounded": false
+    },
+    "defaultScene": {
+      "index": 0,
+      "name": "Settler watering can"
+    },
+    "renderMetrics": {
+      "triangles": 108,
+      "drawCalls": 5,
+      "uniqueGeometries": 5,
+      "uniqueMaterials": 1,
+      "textureCount": 0,
+      "transparentMaterials": 0,
+      "skinned": false
+    },
+    "structuralQa": {
+      "hasDefaultScene": true,
+      "finiteBounds": true,
+      "validatorErrors": 0,
+      "validatorWarnings": 0
+    },
+    "visualQa": "not_assessed"
+  },
+  "buildCache": {
+    "key": "sha256:c8f866b48e95f110c0d8256f3b838869723853b211a6b814bf68bcecd77f56fb",
+    "hit": false
+  }
+}

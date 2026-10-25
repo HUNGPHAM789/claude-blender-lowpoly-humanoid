@@ -1,0 +1,189 @@
+{
+ "id": "carry",
+ "end_frame": 32,
+ "loop": true,
+ "root": {
+  "mode": "root_motion",
+  "speed_mps": 0.75
+ },
+ "gait": {
+  "contacts": {
+   "L": {
+    "on": 0,
+    "off": 19,
+    "heel_rise": 12
+   },
+   "R": {
+    "on": 16,
+    "off": 35,
+    "heel_rise": 28
+   }
+  },
+  "swing_h_m": 0.06,
+  "toe_off_deg": 18,
+  "width_extra_m": 0.008
+ },
+ "hips_drop_mm": 16,
+ "pelvis": {
+  "0": {
+   "z_mm": 0,
+   "x_mm": 15,
+   "yaw": 3
+  },
+  "4": {
+   "z_mm": -15,
+   "x_mm": 25
+  },
+  "8": {
+   "z_mm": 0,
+   "x_mm": 35
+  },
+  "12": {
+   "z_mm": 12,
+   "x_mm": 25
+  },
+  "16": {
+   "z_mm": 0,
+   "x_mm": 15,
+   "yaw": -3
+  },
+  "20": {
+   "z_mm": -15,
+   "x_mm": 5
+  },
+  "24": {
+   "z_mm": 0,
+   "x_mm": -5
+  },
+  "28": {
+   "z_mm": 12,
+   "x_mm": 5
+  },
+  "32": {
+   "z_mm": 0,
+   "x_mm": 15,
+   "yaw": 3
+  }
+ },
+ "joints": {
+  "spine": {
+   "0": {
+    "yaw": -1.6,
+    "pitch": 2.4000000000000004,
+    "roll": 2.0
+   },
+   "16": {
+    "yaw": 1.6,
+    "pitch": 2.4000000000000004,
+    "roll": 2.0
+   },
+   "32": {
+    "yaw": -1.6,
+    "pitch": 2.4000000000000004,
+    "roll": 2.0
+   }
+  },
+  "chest": {
+   "0": {
+    "yaw": -2.4,
+    "pitch": 3.5999999999999996,
+    "roll": 3.0
+   },
+   "16": {
+    "yaw": 2.4,
+    "pitch": 3.5999999999999996,
+    "roll": 3.0
+   },
+   "32": {
+    "yaw": -2.4,
+    "pitch": 3.5999999999999996,
+    "roll": 3.0
+   }
+  },
+  "clavicle_R": {
+   "0": {
+    "abd": 12
+   },
+   "32": {
+    "abd": 12
+   }
+  },
+  "upperarm_R": {
+   "0": {
+    "flex": 60,
+    "abd": 25.0,
+    "twist": 0.0
+   },
+   "32": {
+    "flex": 60,
+    "abd": 25.0,
+    "twist": 0.0
+   }
+  },
+  "forearm_R": {
+   "0": {
+    "flex": 130
+   },
+   "32": {
+    "flex": 130
+   }
+  },
+  "upperarm_L": {
+   "0": {
+    "flex": -10,
+    "abd": -8.0,
+    "twist": 0.0
+   },
+   "16": {
+    "flex": 10,
+    "abd": -8.0,
+    "twist": 0.0
+   },
+   "32": {
+    "flex": -10,
+    "abd": -8.0,
+    "twist": 0.0
+   }
+  },
+  "forearm_L": {
+   "0": {
+    "flex": 25
+   },
+   "16": {
+    "flex": 35
+   },
+   "32": {
+    "flex": 25
+   }
+  },
+  "head": {
+   "0": {
+    "yaw": 4.0,
+    "pitch": -2.0,
+    "roll": -3.0
+   },
+   "32": {
+    "yaw": 4.0,
+    "pitch": -2.0,
+    "roll": -3.0
+   }
+  }
+ },
+ "props": [
+  {
+   "asset": "khuc_go",
+   "che_do": "vac"
+  }
+ ],
+ "tiep_xuc": [
+  "upperarm_R",
+  "forearm_R",
+  "hand_R"
+ ],
+ "events": [],
+ "requirements": {},
+ "version": 1,
+ "rig": "settler_lpd",
+ "fps": 24,
+ "reference_height_m": 1.75
+}

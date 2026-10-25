@@ -1,0 +1,296 @@
+{
+ "front": {
+  "yaw_pitch": [
+   0,
+   0
+  ],
+  "rays": 3027,
+  "see_through": 0,
+  "through_broken_surface": 0,
+  "skin_first": 0,
+  "empty": 0,
+  "background_through_full_silhouette": 0,
+  "background_uv": [],
+  "bare_cheek_above_beard_line": 330,
+  "of_which_lip_connected_regions": 2,
+  "skin_or_bg_at_silhouette_edge": 1,
+  "sample_hits": [],
+  "all_hits": [],
+  "all_empty": [],
+  "skin_first_mean": null,
+  "where_skin_first_y": null
+ },
+ "left": {
+  "yaw_pitch": [
+   90,
+   0
+  ],
+  "rays": 2720,
+  "see_through": 13,
+  "through_broken_surface": 13,
+  "skin_first": 0,
+  "empty": 0,
+  "background_through_full_silhouette": 0,
+  "background_uv": [],
+  "bare_cheek_above_beard_line": 0,
+  "of_which_lip_connected_regions": 13,
+  "skin_or_bg_at_silhouette_edge": 0,
+  "sample_hits": [],
+  "all_hits": [],
+  "all_empty": [],
+  "skin_first_mean": null,
+  "where_skin_first_y": null
+ },
+ "right": {
+  "yaw_pitch": [
+   -90,
+   0
+  ],
+  "rays": 2539,
+  "see_through": 0,
+  "through_broken_surface": 0,
+  "skin_first": 0,
+  "empty": 0,
+  "background_through_full_silhouette": 0,
+  "background_uv": [],
+  "bare_cheek_above_beard_line": 0,
+  "of_which_lip_connected_regions": 0,
+  "skin_or_bg_at_silhouette_edge": 0,
+  "sample_hits": [],
+  "all_hits": [],
+  "all_empty": [],
+  "skin_first_mean": null,
+  "where_skin_first_y": null
+ },
+ "q_left": {
+  "yaw_pitch": [
+   35,
+   0
+  ],
+  "rays": 3399,
+  "see_through": 0,
+  "through_broken_surface": 0,
+  "skin_first": 0,
+  "empty": 0,
+  "background_through_full_silhouette": 0,
+  "background_uv": [],
+  "bare_cheek_above_beard_line": 311,
+  "of_which_lip_connected_regions": 0,
+  "skin_or_bg_at_silhouette_edge": 0,
+  "sample_hits": [],
+  "all_hits": [],
+  "all_empty": [],
+  "skin_first_mean": null,
+  "where_skin_first_y": null
+ },
+ "q_right": {
+  "yaw_pitch": [
+   -35,
+   0
+  ],
+  "rays": 2977,
+  "see_through": 0,
+  "through_broken_surface": 0,
+  "skin_first": 0,
+  "empty": 0,
+  "background_through_full_silhouette": 0,
+  "background_uv": [],
+  "bare_cheek_above_beard_line": 192,
+  "of_which_lip_connected_regions": 7,
+  "skin_or_bg_at_silhouette_edge": 0,
+  "sample_hits": [],
+  "all_hits": [],
+  "all_empty": [],
+  "skin_first_mean": null,
+  "where_skin_first_y": null
+ },
+ "front_down": {
+  "yaw_pitch": [
+   0,
+   -20
+  ],
+  "rays": 2599,
+  "see_through": 0,
+  "through_broken_surface": 0,
+  "skin_first": 0,
+  "empty": 0,
+  "background_through_full_silhouette": 0,
+  "background_uv": [],
+  "bare_cheek_above_beard_line": 305,
+  "of_which_lip_connected_regions": 36,
+  "skin_or_bg_at_silhouette_edge": 19,
+  "sample_hits": [],
+  "all_hits": [],
+  "all_empty": [],
+  "skin_first_mean": null,
+  "where_skin_first_y": null
+ },
+ "front_down_steep": {
+  "yaw_pitch": [
+   0,
+   -35
+  ],
+  "rays": 2545,
+  "see_through": 1,
+  "through_broken_surface": 1,
+  "skin_first": 0,
+  "empty": 0,
+  "background_through_full_silhouette": 0,
+  "background_uv": [],
+  "bare_cheek_above_beard_line": 477,
+  "of_which_lip_connected_regions": 76,
+  "skin_or_bg_at_silhouette_edge": 0,
+  "sample_hits": [],
+  "all_hits": [],
+  "all_empty": [],
+  "skin_first_mean": null,
+  "where_skin_first_y": null
+ },
+ "q_left_down": {
+  "yaw_pitch": [
+   35,
+   -20
+  ],
+  "rays": 3375,
+  "see_through": 3,
+  "through_broken_surface": 3,
+  "skin_first": 0,
+  "empty": 0,
+  "background_through_full_silhouette": 0,
+  "background_uv": [],
+  "bare_cheek_above_beard_line": 620,
+  "of_which_lip_connected_regions": 3,
+  "skin_or_bg_at_silhouette_edge": 0,
+  "sample_hits": [],
+  "all_hits": [],
+  "all_empty": [],
+  "skin_first_mean": null,
+  "where_skin_first_y": null
+ },
+ "q_right_down": {
+  "yaw_pitch": [
+   -35,
+   -20
+  ],
+  "rays": 3226,
+  "see_through": 0,
+  "through_broken_surface": 0,
+  "skin_first": 0,
+  "empty": 0,
+  "background_through_full_silhouette": 0,
+  "background_uv": [],
+  "bare_cheek_above_beard_line": 663,
+  "of_which_lip_connected_regions": 6,
+  "skin_or_bg_at_silhouette_edge": 0,
+  "sample_hits": [],
+  "all_hits": [],
+  "all_empty": [],
+  "skin_first_mean": null,
+  "where_skin_first_y": null
+ },
+ "q_left_up": {
+  "yaw_pitch": [
+   35,
+   15
+  ],
+  "rays": 3645,
+  "see_through": 0,
+  "through_broken_surface": 0,
+  "skin_first": 0,
+  "empty": 0,
+  "background_through_full_silhouette": 0,
+  "background_uv": [],
+  "bare_cheek_above_beard_line": 240,
+  "of_which_lip_connected_regions": 1,
+  "skin_or_bg_at_silhouette_edge": 0,
+  "sample_hits": [],
+  "all_hits": [],
+  "all_empty": [],
+  "skin_first_mean": null,
+  "where_skin_first_y": null
+ },
+ "q_right_up": {
+  "yaw_pitch": [
+   -35,
+   15
+  ],
+  "rays": 3134,
+  "see_through": 0,
+  "through_broken_surface": 0,
+  "skin_first": 0,
+  "empty": 0,
+  "background_through_full_silhouette": 0,
+  "background_uv": [],
+  "bare_cheek_above_beard_line": 40,
+  "of_which_lip_connected_regions": 9,
+  "skin_or_bg_at_silhouette_edge": 0,
+  "sample_hits": [],
+  "all_hits": [],
+  "all_empty": [],
+  "skin_first_mean": null,
+  "where_skin_first_y": null
+ },
+ "front_up": {
+  "yaw_pitch": [
+   0,
+   15
+  ],
+  "rays": 3479,
+  "see_through": 0,
+  "through_broken_surface": 0,
+  "skin_first": 0,
+  "empty": 0,
+  "background_through_full_silhouette": 0,
+  "background_uv": [],
+  "bare_cheek_above_beard_line": 328,
+  "of_which_lip_connected_regions": 0,
+  "skin_or_bg_at_silhouette_edge": 2,
+  "sample_hits": [],
+  "all_hits": [],
+  "all_empty": [],
+  "skin_first_mean": null,
+  "where_skin_first_y": null
+ },
+ "side_left_down": {
+  "yaw_pitch": [
+   70,
+   -20
+  ],
+  "rays": 2956,
+  "see_through": 12,
+  "through_broken_surface": 12,
+  "skin_first": 0,
+  "empty": 0,
+  "background_through_full_silhouette": 0,
+  "background_uv": [],
+  "bare_cheek_above_beard_line": 179,
+  "of_which_lip_connected_regions": 13,
+  "skin_or_bg_at_silhouette_edge": 0,
+  "sample_hits": [],
+  "all_hits": [],
+  "all_empty": [],
+  "skin_first_mean": null,
+  "where_skin_first_y": null
+ },
+ "side_right_down": {
+  "yaw_pitch": [
+   -70,
+   -20
+  ],
+  "rays": 2740,
+  "see_through": 0,
+  "through_broken_surface": 0,
+  "skin_first": 0,
+  "empty": 0,
+  "background_through_full_silhouette": 0,
+  "background_uv": [],
+  "bare_cheek_above_beard_line": 186,
+  "of_which_lip_connected_regions": 3,
+  "skin_or_bg_at_silhouette_edge": 0,
+  "sample_hits": [],
+  "all_hits": [],
+  "all_empty": [],
+  "skin_first_mean": null,
+  "where_skin_first_y": null
+ }
+}

@@ -1,0 +1,564 @@
+{
+ "spec": "primal_spiky_hair",
+ "version": "1.0",
+ "date": "2026-10-25",
+ "source": "Hunyuan3D-2 teacher meshes generated from Codex-cleaned asset images of the official primal sheets (references/primal_starter_official_2026-10-25); measured, never shipped",
+ "samples": [
+  "male_s42_clumps.json",
+  "male_s7_clumps.json",
+  "male_s123_clumps.json",
+  "female_s42_clumps.json",
+  "female_s7_clumps.json",
+  "female_s123_clumps.json"
+ ],
+ "units": "cm at body scale (male scalp 1.80 m, female ~1.70 m); angles in degrees; ranges = [p10, p50, p90] pooled; counts = clumps per head [min, median, max]",
+ "frame": "glTF, Y up, body faces +Z; scalp = ellipsoid of the head above the chin joint",
+ "palette": {
+  "hair": [
+   58,
+   40,
+   28
+  ],
+  "_via": "theme_colors.mau() (\u0110\u1ea5t \u1ea5m)"
+ },
+ "tri_budget": {
+  "male": 1400,
+  "female": 1600
+ },
+ "regions": {
+  "female": {
+   "back": {
+    "clumps_per_sample_min_med_max": [
+     45,
+     48.0,
+     52
+    ],
+    "length_cm": [
+     3.28,
+     6.88,
+     11.46
+    ],
+    "base_width_cm": [
+     1.05,
+     2.43,
+     4.56
+    ],
+    "tip_half_angle_deg": [
+     16.32,
+     28.4,
+     55.64
+    ],
+    "tilt_from_normal_deg": [
+     19.2,
+     41.7,
+     61.44
+    ],
+    "abs_flow_deg": [
+     4.68,
+     33.0,
+     160.38
+    ],
+    "flatness": [
+     0.43,
+     0.64,
+     0.87
+    ],
+    "bend": [
+     0.06,
+     0.13,
+     0.27
+    ],
+    "nn_spacing_cm": [
+     1.66,
+     3.02,
+     4.4
+    ],
+    "length_over_width": [
+     1.13,
+     3.12,
+     5.68
+    ]
+   },
+   "crown": {
+    "clumps_per_sample_min_med_max": [
+     20,
+     22.0,
+     27
+    ],
+    "length_cm": [
+     2.08,
+     5.8,
+     10.06
+    ],
+    "base_width_cm": [
+     0.87,
+     2.21,
+     4.98
+    ],
+    "tip_half_angle_deg": [
+     18.82,
+     40.2,
+     55.22
+    ],
+    "tilt_from_normal_deg": [
+     28.86,
+     55.3,
+     75.6
+    ],
+    "abs_flow_deg": [
+     4.76,
+     33.4,
+     132.54
+    ],
+    "flatness": [
+     0.33,
+     0.56,
+     0.75
+    ],
+    "bend": [
+     0.04,
+     0.1,
+     0.28
+    ],
+    "nn_spacing_cm": [
+     1.59,
+     2.85,
+     5.11
+    ],
+    "length_over_width": [
+     1.24,
+     2.51,
+     5.12
+    ]
+   },
+   "fringe": {
+    "clumps_per_sample_min_med_max": [
+     4,
+     11.0,
+     11
+    ],
+    "length_cm": [
+     3.82,
+     9.46,
+     11.54
+    ],
+    "base_width_cm": [
+     1.32,
+     2.02,
+     3.06
+    ],
+    "tip_half_angle_deg": [
+     17.45,
+     31.75,
+     51.2
+    ],
+    "tilt_from_normal_deg": [
+     21.5,
+     47.85,
+     73.55
+    ],
+    "abs_flow_deg": [
+     43.4,
+     154.6,
+     178.25
+    ],
+    "flatness": [
+     0.43,
+     0.57,
+     0.83
+    ],
+    "bend": [
+     0.09,
+     0.17,
+     0.3
+    ],
+    "nn_spacing_cm": [
+     1.43,
+     2.19,
+     3.51
+    ],
+    "length_over_width": [
+     1.81,
+     3.78,
+     6.6
+    ]
+   },
+   "side": {
+    "clumps_per_sample_min_med_max": [
+     7,
+     8.0,
+     11
+    ],
+    "length_cm": [
+     3.13,
+     6.08,
+     9.25
+    ],
+    "base_width_cm": [
+     1.2,
+     2.65,
+     4.06
+    ],
+    "tip_half_angle_deg": [
+     17.45,
+     40.1,
+     61.95
+    ],
+    "tilt_from_normal_deg": [
+     11.6,
+     31.25,
+     55.4
+    ],
+    "abs_flow_deg": [
+     7.85,
+     46.45,
+     169.9
+    ],
+    "flatness": [
+     0.42,
+     0.66,
+     0.86
+    ],
+    "bend": [
+     0.05,
+     0.18,
+     0.33
+    ],
+    "nn_spacing_cm": [
+     1.95,
+     3.21,
+     4.83
+    ],
+    "length_over_width": [
+     1.12,
+     1.85,
+     5.82
+    ]
+   }
+  },
+  "male": {
+   "back": {
+    "clumps_per_sample_min_med_max": [
+     18,
+     23.0,
+     24
+    ],
+    "length_cm": [
+     2.72,
+     5.33,
+     9.79
+    ],
+    "base_width_cm": [
+     1.19,
+     3.03,
+     6.29
+    ],
+    "tip_half_angle_deg": [
+     26.18,
+     42.6,
+     63.58
+    ],
+    "tilt_from_normal_deg": [
+     33.22,
+     67.5,
+     86.3
+    ],
+    "abs_flow_deg": [
+     28.66,
+     150.1,
+     172.36
+    ],
+    "flatness": [
+     0.17,
+     0.41,
+     0.71
+    ],
+    "bend": [
+     0.07,
+     0.17,
+     0.41
+    ],
+    "nn_spacing_cm": [
+     1.23,
+     3.75,
+     5.44
+    ],
+    "length_over_width": [
+     0.78,
+     1.93,
+     3.82
+    ]
+   },
+   "beard": {
+    "clumps_per_sample_min_med_max": [
+     4,
+     7.0,
+     9
+    ],
+    "length_cm": [
+     1.87,
+     5.01,
+     10.26
+    ],
+    "base_width_cm": [
+     0.72,
+     2.96,
+     4.4
+    ],
+    "tip_half_angle_deg": [
+     21.75,
+     35.9,
+     48.8
+    ],
+    "tilt_from_normal_deg": [
+     27.84,
+     50.55,
+     64.8
+    ],
+    "abs_flow_deg": [
+     4.57,
+     27.75,
+     87.84
+    ],
+    "flatness": [
+     0.3,
+     0.6,
+     0.69
+    ],
+    "bend": [
+     0.04,
+     0.15,
+     0.3
+    ],
+    "nn_spacing_cm": [
+     1.47,
+     2.55,
+     4.24
+    ],
+    "length_over_width": [
+     0.98,
+     2.63,
+     4.41
+    ]
+   },
+   "crown": {
+    "clumps_per_sample_min_med_max": [
+     3,
+     4.0,
+     9
+    ],
+    "length_cm": [
+     2.72,
+     5.61,
+     9.52
+    ],
+    "base_width_cm": [
+     1.08,
+     5.61,
+     15.11
+    ],
+    "tip_half_angle_deg": [
+     32.5,
+     40.75,
+     57.6
+    ],
+    "tilt_from_normal_deg": [
+     12.0,
+     57.1,
+     79.3
+    ],
+    "abs_flow_deg": [
+     28.75,
+     125.05,
+     168.3
+    ],
+    "flatness": [
+     0.35,
+     0.43,
+     0.71
+    ],
+    "bend": [
+     0.12,
+     0.23,
+     0.47
+    ],
+    "nn_spacing_cm": [
+     3.73,
+     4.64,
+     8.16
+    ],
+    "length_over_width": [
+     0.43,
+     0.82,
+     3.0
+    ]
+   },
+   "fringe": {
+    "clumps_per_sample_min_med_max": [
+     10,
+     16.0,
+     22
+    ],
+    "length_cm": [
+     2.23,
+     3.34,
+     7.76
+    ],
+    "base_width_cm": [
+     1.22,
+     2.31,
+     4.22
+    ],
+    "tip_half_angle_deg": [
+     23.42,
+     51.35,
+     64.55
+    ],
+    "tilt_from_normal_deg": [
+     24.59,
+     47.8,
+     66.05
+    ],
+    "abs_flow_deg": [
+     17.63,
+     131.75,
+     167.93
+    ],
+    "flatness": [
+     0.33,
+     0.51,
+     0.7
+    ],
+    "bend": [
+     0.08,
+     0.19,
+     0.4
+    ],
+    "nn_spacing_cm": [
+     0.71,
+     1.67,
+     4.72
+    ],
+    "length_over_width": [
+     0.76,
+     1.72,
+     2.52
+    ]
+   },
+   "side": {
+    "clumps_per_sample_min_med_max": [
+     29,
+     31.0,
+     32
+    ],
+    "length_cm": [
+     3.52,
+     6.39,
+     10.48
+    ],
+    "base_width_cm": [
+     1.08,
+     3.12,
+     5.05
+    ],
+    "tip_half_angle_deg": [
+     23.61,
+     37.2,
+     48.82
+    ],
+    "tilt_from_normal_deg": [
+     24.49,
+     54.1,
+     85.18
+    ],
+    "abs_flow_deg": [
+     18.71,
+     127.65,
+     173.76
+    ],
+    "flatness": [
+     0.21,
+     0.44,
+     0.69
+    ],
+    "bend": [
+     0.06,
+     0.13,
+     0.28
+    ],
+    "nn_spacing_cm": [
+     1.16,
+     2.81,
+     5.22
+    ],
+    "length_over_width": [
+     0.97,
+     2.2,
+     5.41
+    ]
+   }
+  }
+ },
+ "hairline": {
+  "male": {
+   "front_lowest_base_above_head_centre_frac": [
+    -0.19,
+    -0.18,
+    -0.18
+   ],
+   "nape_lowest_base_above_head_centre_frac": [
+    -0.37,
+    -0.29,
+    -0.26
+   ]
+  },
+  "female": {
+   "front_lowest_base_above_head_centre_frac": [
+    -0.17,
+    -0.11,
+    -0.07
+   ],
+   "nape_lowest_base_above_head_centre_frac": [
+    -1.11,
+    -0.95,
+    -0.86
+   ]
+  }
+ },
+ "flow_rule": "male: most clumps point UP/OUT (|flow| median 125\u2013150\u00b0, 0\u00b0 = straight down the scalp) \u2014 spikes; female: most hang DOWN (|flow| 33\u201346\u00b0) except fringe/crown crest (\u2248155\u00b0)",
+ "clump_shape": "flat blade: thickness/width (flatness) male 0.41\u20130.51, female 0.56\u20130.66 (median); slight bend 0.10\u20130.23 of length; tip half-angle 28\u201351\u00b0",
+ "layering": "relative root offset from the scalp orders the layers (outer clumps have the larger offset); absolute offsets are biased by the fit \u2014 use rank, not value",
+ "confidence": {
+  "male crown": "LOW \u2014 short crowded spikes merge into broad patches (width 5.6 cm, L/W 0.8)",
+  "female beard": "mislabel: long front locks \u2014 treat as fringe",
+  "flow": "measured",
+  "flatness": "measured",
+  "counts": "stable across seeds and tip-ball 1\u20132 cm (84\u201385 male)"
+ },
+ "gates": [
+  {
+   "name": "clump count per region",
+   "rule": "analyze_hair.py on the BUILT mesh: count within [0.8\u00b7min, 1.2\u00b7max]"
+  },
+  {
+   "name": "clump length / width / tip angle",
+   "rule": "per region median inside the learned [p10, p90]"
+  },
+  {
+   "name": "flow",
+   "rule": "male: \u2265 60 % of side/fringe/back clumps |flow| > 90\u00b0; female back: \u2265 60 % |flow| < 60\u00b0"
+  },
+  {
+   "name": "blade",
+   "rule": "median flatness \u2264 learned p90 (no round cones)"
+  },
+  {
+   "name": "coverage",
+   "rule": "no scalp visible from front/side/back renders above the hairline (front base \u2265 hairline frac)"
+  },
+  {
+   "name": "budget",
+   "rule": "tris \u2264 tri_budget"
+  }
+ ]
+}

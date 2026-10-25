@@ -1,0 +1,223 @@
+{
+ "id": "idle",
+ "end_frame": 72,
+ "loop": true,
+ "root": {
+  "mode": "stationary"
+ },
+ "gait": {
+  "contacts": {
+   "L": {
+    "on": 0,
+    "off": 72
+   },
+   "R": {
+    "on": 0,
+    "off": 72
+   }
+  },
+  "swing_h_m": 0.0
+ },
+ "hips_drop_mm": 2,
+ "pelvis": {
+  "0": {
+   "x_mm": 0,
+   "z_mm": 0
+  },
+  "18": {
+   "x_mm": 8,
+   "z_mm": 3
+  },
+  "36": {
+   "x_mm": 0,
+   "z_mm": 0
+  },
+  "54": {
+   "x_mm": -8,
+   "z_mm": 3
+  },
+  "72": {
+   "x_mm": 0,
+   "z_mm": 0
+  }
+ },
+ "joints": {
+  "spine": {
+   "0": {
+    "yaw": 0.0,
+    "pitch": 0.4,
+    "roll": 0.0
+   },
+   "18": {
+    "yaw": 0.4,
+    "pitch": 0.0,
+    "roll": -0.2
+   },
+   "36": {
+    "yaw": 0.0,
+    "pitch": 0.4,
+    "roll": 0.0
+   },
+   "54": {
+    "yaw": -0.4,
+    "pitch": 0.0,
+    "roll": 0.2
+   },
+   "72": {
+    "yaw": 0.0,
+    "pitch": 0.4,
+    "roll": 0.0
+   }
+  },
+  "chest": {
+   "0": {
+    "yaw": 0.0,
+    "pitch": 0.6,
+    "roll": 0.0
+   },
+   "18": {
+    "yaw": 0.6,
+    "pitch": 0.0,
+    "roll": -0.3
+   },
+   "36": {
+    "yaw": 0.0,
+    "pitch": 0.6,
+    "roll": 0.0
+   },
+   "54": {
+    "yaw": -0.6,
+    "pitch": 0.0,
+    "roll": 0.3
+   },
+   "72": {
+    "yaw": 0.0,
+    "pitch": 0.6,
+    "roll": 0.0
+   }
+  },
+  "head": {
+   "0": {
+    "yaw": 0.0,
+    "pitch": -1.0,
+    "roll": 0.0
+   },
+   "20": {
+    "yaw": -1.0,
+    "pitch": 0.0,
+    "roll": 0.5
+   },
+   "38": {
+    "yaw": 0.0,
+    "pitch": -1.0,
+    "roll": 0.0
+   },
+   "56": {
+    "yaw": 1.0,
+    "pitch": 0.0,
+    "roll": -0.5
+   },
+   "72": {
+    "yaw": 0.0,
+    "pitch": -1.0,
+    "roll": 0.0
+   }
+  },
+  "upperarm_L": {
+   "0": {
+    "flex": 2,
+    "abd": -13.0,
+    "twist": 0.0
+   },
+   "36": {
+    "flex": 3,
+    "abd": -12.5,
+    "twist": 0.0
+   },
+   "72": {
+    "flex": 2,
+    "abd": -13.0,
+    "twist": 0.0
+   }
+  },
+  "upperarm_R": {
+   "0": {
+    "flex": 2,
+    "abd": -13.0,
+    "twist": 0.0
+   },
+   "36": {
+    "flex": 3,
+    "abd": -12.5,
+    "twist": 0.0
+   },
+   "72": {
+    "flex": 2,
+    "abd": -13.0,
+    "twist": 0.0
+   }
+  },
+  "forearm_L": {
+   "0": {
+    "flex": 12
+   },
+   "18": {
+    "flex": 13
+   },
+   "36": {
+    "flex": 12
+   },
+   "54": {
+    "flex": 13
+   },
+   "72": {
+    "flex": 12
+   }
+  },
+  "forearm_R": {
+   "0": {
+    "flex": 12
+   },
+   "18": {
+    "flex": 13
+   },
+   "36": {
+    "flex": 12
+   },
+   "54": {
+    "flex": 13
+   },
+   "72": {
+    "flex": 12
+   }
+  }
+ },
+ "props": [
+  {
+   "asset": "axe",
+   "ben": "R",
+   "huong": [
+    0,
+    0,
+    -1
+   ]
+  },
+  {
+   "asset": "berry_basket",
+   "ben": "L",
+   "huong": [
+    0,
+    0,
+    1
+   ]
+  }
+ ],
+ "events": [],
+ "requirements": {
+  "tay_xe_mm": 15
+ },
+ "version": 1,
+ "rig": "settler_lpd",
+ "fps": 24,
+ "reference_height_m": 1.75
+}

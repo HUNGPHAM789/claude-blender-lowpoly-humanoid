@@ -1,0 +1,112 @@
+{
+ "plan": "~/projects/GameDev/test_spec/organic/plan_rabbit.json",
+ "subject": "adult rabbit, seated alert pose (compact mammal)",
+ "route": "implicit smooth-union -> marching cubes -> Blender Decimate COLLAPSE (QEM)",
+ "grid": {
+  "shape": [
+   120,
+   163,
+   194
+  ],
+  "voxel": 0.005184210526315789
+ },
+ "grid_boundary_clear": true,
+ "raw_components": 1,
+ "raw_mesh": {
+  "finite_vertices": true,
+  "valid_indices": true,
+  "vertices": 58508,
+  "triangles": 117012,
+  "edges": 175518,
+  "boundary_edges": 0,
+  "nonmanifold_edges": 0,
+  "winding_consistent": true,
+  "bad_vertex_links": 0,
+  "degenerate_faces": 9,
+  "duplicate_faces": 0,
+  "loose_vertices": 0,
+  "components": 1,
+  "euler_characteristic": 2,
+  "signed_volume": 0.05624123298019138,
+  "volume_positive": true,
+  "sliver_faces_min_angle_lt_5deg": 7392,
+  "median_min_angle_deg": 38.149197323435594,
+  "closed_manifold_ok": false
+ },
+ "decimate_log": "DECIMATE in=117012 target=1700 ratio=0.0145 out=1700",
+ "normalize": {
+  "scale": 1.0918612913370276,
+  "source_height": 0.9158672515768558
+ },
+ "body": {
+  "finite_vertices": true,
+  "valid_indices": true,
+  "vertices": 852,
+  "triangles": 1700,
+  "edges": 2550,
+  "boundary_edges": 0,
+  "nonmanifold_edges": 0,
+  "winding_consistent": true,
+  "bad_vertex_links": 0,
+  "degenerate_faces": 0,
+  "duplicate_faces": 0,
+  "loose_vertices": 0,
+  "components": 1,
+  "euler_characteristic": 2,
+  "signed_volume": 0.07253163427605076,
+  "volume_positive": true,
+  "sliver_faces_min_angle_lt_5deg": 17,
+  "median_min_angle_deg": 32.37947408108637,
+  "closed_manifold_ok": true
+ },
+ "material_face_counts": {
+  "cream": 126,
+  "fur": 1550,
+  "inner_ear": 21,
+  "nose": 3
+ },
+ "eyes": [
+  {
+   "triangles": 80,
+   "components": 1,
+   "volume_positive": true,
+   "closed_manifold_ok": true
+  },
+  {
+   "triangles": 80,
+   "components": 1,
+   "volume_positive": true,
+   "closed_manifold_ok": true
+  }
+ ],
+ "total_source_triangles": 1860,
+ "budget": [
+  1000,
+  3000
+ ],
+ "within_budget": true,
+ "glb_split_vertices": 5580,
+ "glb_reload": {
+  "geometries": 6,
+  "triangles": 1860,
+  "bounds_yup": [
+   [
+    -0.2425,
+    0.0,
+    -0.4144
+   ],
+   [
+    0.2425,
+    1.0,
+    0.393
+   ]
+  ]
+ },
+ "unchecked": [
+  "self-intersections / clipping",
+  "anatomical correctness or attractiveness (visual review in REPORT.md only)",
+  "rig / animation",
+  "exact bilateral symmetry after QEM",
+  "engine import beyond trimesh GLB reload"
+ ]
+}

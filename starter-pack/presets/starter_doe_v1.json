@@ -1,0 +1,47 @@
+{
+  "schema": "LPM.StarterAssetPreset.v1",
+  "id": "starter_doe_v1",
+  "family": "animal",
+  "species": "doe",
+  "height_m": 1.24,
+  "body": {
+    "body_length_to_shoulder_height": [
+      1.08,
+      1.24
+    ],
+    "skull_length_ratio": [
+      0.38,
+      0.46
+    ],
+    "ear_height_ratio": [
+      0.18,
+      0.26
+    ]
+  },
+  "features": {
+    "antlers": false,
+    "spotted": true,
+    "spot_count": [
+      8,
+      25
+    ]
+  },
+  "seed": 1093,
+  "coordinate_system": "Y_UP_RIGHT_HANDED",
+  "forward": "+Z",
+  "asset_units": "meters",
+  "reference_status": "screenshot_inferred_design_targets_not_measured_source_mesh",
+  "scale_reference": "shoulder_height_or_body_length_as_defined_in_spec",
+  "tri_budget": {
+    "lod0_max": 1800,
+    "lod1_max": 900,
+    "lod2_max": 450
+  },
+  "rig_required": true,
+  "geometry_contract": {
+    "flat_shading": true,
+    "triangulated_facets": true,
+    "detachable_visual_layers": true
+  },
+  "source_spec": "../STARTER_ANIMALS_SPEC.md"
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "LPM.StarterAssetPreset.v1",
+  "id": "starter_rabbit_v1",
+  "family": "animal",
+  "species": "rabbit",
+  "height_m": 0.34,
+  "body": {
+    "sitting_height_to_body_length": [
+      0.55,
+      0.7
+    ],
+    "ear_length_to_body_length": [
+      0.55,
+      0.8
+    ],
+    "tail_diameter_to_body_length": [
+      0.12,
+      0.18
+    ]
+  },
+  "features": {
+    "eye_emphasis": true,
+    "whiskers_lod0_optional": true,
+    "paws": "crouched_hind"
+  },
+  "seed": 1162,
+  "coordinate_system": "Y_UP_RIGHT_HANDED",
+  "forward": "+Z",
+  "asset_units": "meters",
+  "reference_status": "screenshot_inferred_design_targets_not_measured_source_mesh",
+  "scale_reference": "shoulder_height_or_body_length_as_defined_in_spec",
+  "tri_budget": {
+    "lod0_max": 1400,
+    "lod1_max": 700,
+    "lod2_max": 350
+  },
+  "rig_required": true,
+  "geometry_contract": {
+    "flat_shading": true,
+    "triangulated_facets": true,
+    "detachable_visual_layers": true
+  },
+  "source_spec": "../STARTER_ANIMALS_SPEC.md"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "settler_lpd",
+ "tools": "~/projects/lpm-faceless-humanoid/assets/tools/settler_v1",
+ "mau_da": [0.80, 0.66, 0.52, 1],
+ "gioi": {
+  "nam": {"geom": "~/projects/lpm-faceless-humanoid/lpd_detailed/out_male_hold/geometry.json", "than": "~/projects/lpm-faceless-humanoid/lpd_detailed/out_male_hold/BODY_M.glb",
+          "toc": "~/projects/lpm-faceless-humanoid/lpd_detailed/out_male_hold/HAIR_SHORT_M_{mau}.glb", "do": "~/projects/lpm-faceless-humanoid/lpd_detailed/out_male_hold/OUTFIT_SETTLER_M.glb"},
+  "nu": {"geom": "~/projects/lpm-faceless-humanoid/lpd_detailed/out_female_hold/geometry.json", "than": "~/projects/lpm-faceless-humanoid/lpd_detailed/out_female_hold/BODY_F.glb",
+         "toc": "~/projects/lpm-faceless-humanoid/lpd_detailed/out_female_hold/HAIR_BOB_F_{mau}.glb", "do": "~/projects/lpm-faceless-humanoid/lpd_detailed/out_female_hold/OUTFIT_SETTLER_F.glb"}
+ }
+}

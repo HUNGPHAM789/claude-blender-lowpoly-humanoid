@@ -1,0 +1,22 @@
+{
+  "title": "Curated Primal Human LPM 8-view research",
+  "date": "2026-10-24",
+  "reference_model_license": "unknown; source screenshots supplied by user",
+  "scale_authority": {"human_height_m": 1.8, "status": "chosen target, not measured from binary"},
+  "front_wire_measurement":{"image_resolution_px":[426,820],"top_y_px":19,"sole_y_px":798,"projected_height_px":779,"px_per_meter_derived":432.78,"annotation_accuracy_px":"±7 to 20"},
+  "image_views": [
+    {"id":"R01","repo_filename":"01_rig_front.png","type":"front_rig"},
+    {"id":"R02","repo_filename":"02_rig_side.png","type":"side_rig"},
+    {"id":"R03","repo_filename":"03_skin_weights.png","type":"front_weight_visualization"},
+    {"id":"R04","repo_filename":"04_wire_front.png","type":"front_wireframe"},
+    {"id":"R05","repo_filename":"05_wire_side.png","type":"side_wireframe"},
+    {"id":"R06","repo_filename":"06_wire_back.png","type":"back_wireframe"},
+    {"id":"R07","repo_filename":"07_render_front_3quarter.png","type":"color_front_3quarter"},
+    {"id":"R08","repo_filename":"08_render_back_3quarter.png","type":"color_back_3quarter"}
+  ],
+  "target_profile":"primal-detailed-settler",
+  "does_not_replace":"canonical low-poly-origami-character faceless v2.7",
+  "body_part_ranges_m":{"skull_width":[0.195,0.225],"nose_projection":[0.025,0.045],"ear_height":[0.045,0.065],"neck_diameter":[0.13,0.15],"shoulder_width":[0.51,0.57],"chest_depth":[0.255,0.32],"waist_depth":[0.205,0.275],"upper_arm_length":[0.28,0.33],"forearm_length":[0.25,0.31],"palm_length":[0.095,0.115],"hand_total_length":[0.17,0.21],"hip_pair_half_width":[0.105,0.145],"femur_length":[0.39,0.46],"shin_length":[0.37,0.44],"boot_foot_length":[0.28,0.34],"boot_cuff_height":[0.055,0.09]},
+  "proposed_joints_Z_m":{"root":0.0,"hips":0.96,"spineA":1.12,"spineB":1.29,"chest":1.41,"neck":1.54,"head":1.65,"shoulder":1.48,"elbow":1.11,"wrist":0.82,"knee":0.48,"ankle":0.1},
+  "confidence":"illustrative target numbers derived visually from reference images; NOT recovered mesh data"
+}

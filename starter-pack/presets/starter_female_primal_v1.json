@@ -1,0 +1,69 @@
+{
+  "schema": "LPM.StarterAssetPreset.v1",
+  "id": "starter_female_primal_v1",
+  "family": "humanoid",
+  "species": "human",
+  "sex": "female",
+  "height_m": 1.68,
+  "body": {
+    "head_height_ratio": [
+      0.16,
+      0.18
+    ],
+    "shoulder_width_ratio": [
+      0.22,
+      0.25
+    ],
+    "waist_width_ratio": [
+      0.12,
+      0.15
+    ],
+    "hip_width_ratio": [
+      0.18,
+      0.22
+    ],
+    "knee_height_ratio": [
+      0.24,
+      0.28
+    ],
+    "foot_length_ratio": [
+      0.13,
+      0.16
+    ]
+  },
+  "features": {
+    "hair_clumps": [
+      10,
+      16
+    ],
+    "ponytail_locks": [
+      6,
+      10
+    ],
+    "skirt_panels": [
+      7,
+      11
+    ],
+    "barefoot": true,
+    "bandeau": true,
+    "beard": false
+  },
+  "seed": 1001,
+  "coordinate_system": "Y_UP_RIGHT_HANDED",
+  "forward": "+Z",
+  "asset_units": "meters",
+  "reference_status": "screenshot_inferred_design_targets_not_measured_source_mesh",
+  "scale_reference": "total_height",
+  "tri_budget": {
+    "lod0_max": 3200,
+    "lod1_max": 1600,
+    "lod2_max": 800
+  },
+  "rig_required": true,
+  "geometry_contract": {
+    "flat_shading": true,
+    "triangulated_facets": true,
+    "detachable_visual_layers": true
+  },
+  "source_spec": "../STARTER_HUMANS_SPEC.md"
+}

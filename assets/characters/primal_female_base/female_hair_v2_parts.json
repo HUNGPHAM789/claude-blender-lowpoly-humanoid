@@ -1,0 +1,497 @@
+{
+ "out": "~/projects/lpm-faceless-humanoid/assets/characters/primal_female_base/female_hair_v2.glb",
+ "hairline_table": [
+  [
+   0,
+   1.5801
+  ],
+  [
+   6.4,
+   1.5861
+  ],
+  [
+   12.8,
+   1.5941
+  ],
+  [
+   19.5,
+   1.6021
+  ],
+  [
+   24.3,
+   1.6061
+  ],
+  [
+   33.7,
+   1.6011
+  ],
+  [
+   40,
+   1.5881
+  ],
+  [
+   45,
+   1.5801
+  ]
+ ],
+ "hairline_y": 1.6001,
+ "tie": {
+  "point": [
+   0.0055,
+   1.5439,
+   -0.0588
+  ]
+ },
+ "tris": {
+  "hair_cap__movable": 288,
+  "hair_masses": 650,
+  "ponytail": 210,
+  "tie_band": 64
+ },
+ "tris_total": 1212,
+ "masses_per_region": {
+  "crown": 5,
+  "top": 4,
+  "frame": 4,
+  "side": 4,
+  "back": 7,
+  "fringe": 7
+ },
+ "fringe": [
+  {
+   "region": "fringe",
+   "theta": -26,
+   "faces": [
+    496,
+    518
+   ],
+   "tip_above_brow_cm": 2.21,
+   "tip_above_brow_H": 0.081
+  },
+  {
+   "region": "fringe",
+   "theta": -17,
+   "faces": [
+    518,
+    540
+   ],
+   "tip_above_brow_cm": 1.99,
+   "tip_above_brow_H": 0.073
+  },
+  {
+   "region": "fringe",
+   "theta": -8,
+   "faces": [
+    540,
+    562
+   ],
+   "tip_above_brow_cm": 1.87,
+   "tip_above_brow_H": 0.068
+  },
+  {
+   "region": "fringe",
+   "theta": 0,
+   "faces": [
+    562,
+    584
+   ],
+   "tip_above_brow_cm": 1.66,
+   "tip_above_brow_H": 0.061
+  },
+  {
+   "region": "fringe",
+   "theta": 8,
+   "faces": [
+    584,
+    606
+   ],
+   "tip_above_brow_cm": 1.87,
+   "tip_above_brow_H": 0.068
+  },
+  {
+   "region": "fringe",
+   "theta": 17,
+   "faces": [
+    606,
+    628
+   ],
+   "tip_above_brow_cm": 1.94,
+   "tip_above_brow_H": 0.071
+  },
+  {
+   "region": "fringe",
+   "theta": 26,
+   "faces": [
+    628,
+    650
+   ],
+   "tip_above_brow_cm": 2.2,
+   "tip_above_brow_H": 0.08
+  }
+ ],
+ "tail_clumps": [
+  {
+   "clump": 0,
+   "length_cm": 41.8,
+   "start_rise_deg": 10.3,
+   "max_bend_deg": 29.1,
+   "bends_deg": [
+    28.2,
+    29.1,
+    28.7
+   ],
+   "thick_tie_cm": 6.3,
+   "thick_mid_cm": 5.4
+  },
+  {
+   "clump": 1,
+   "length_cm": 37.6,
+   "start_rise_deg": 12.7,
+   "max_bend_deg": 28.9,
+   "bends_deg": [
+    26.0,
+    28.9,
+    28.8
+   ],
+   "thick_tie_cm": 6.3,
+   "thick_mid_cm": 5.4
+  },
+  {
+   "clump": 2,
+   "length_cm": 37.6,
+   "start_rise_deg": 13.5,
+   "max_bend_deg": 27.7,
+   "bends_deg": [
+    26.9,
+    27.5,
+    27.7
+   ],
+   "thick_tie_cm": 6.3,
+   "thick_mid_cm": 5.4
+  },
+  {
+   "clump": 3,
+   "length_cm": 32.6,
+   "start_rise_deg": 9.6,
+   "max_bend_deg": 29.4,
+   "bends_deg": [
+    28.2,
+    29.4,
+    26.7
+   ],
+   "thick_tie_cm": 6.3,
+   "thick_mid_cm": 5.4
+  },
+  {
+   "clump": 4,
+   "length_cm": 32.6,
+   "start_rise_deg": 17.2,
+   "max_bend_deg": 27.8,
+   "bends_deg": [
+    26.1,
+    27.8,
+    27.5
+   ],
+   "thick_tie_cm": 6.3,
+   "thick_mid_cm": 5.4
+  },
+  {
+   "clump": 5,
+   "length_cm": 28.4,
+   "start_rise_deg": 9.9,
+   "max_bend_deg": 27.7,
+   "bends_deg": [
+    27.7,
+    26.9,
+    26.0
+   ],
+   "thick_tie_cm": 6.3,
+   "thick_mid_cm": 5.4
+  },
+  {
+   "clump": 6,
+   "length_cm": 28.4,
+   "start_rise_deg": 9.5,
+   "max_bend_deg": 28.9,
+   "bends_deg": [
+    27.3,
+    26.0,
+    28.9
+   ],
+   "thick_tie_cm": 6.3,
+   "thick_mid_cm": 5.4
+  }
+ ],
+ "clumps": [
+  {
+   "region": "crown",
+   "theta": 180,
+   "faces": [
+    0,
+    22
+   ]
+  },
+  {
+   "region": "crown",
+   "theta": 120,
+   "faces": [
+    22,
+    44
+   ]
+  },
+  {
+   "region": "crown",
+   "theta": 60,
+   "faces": [
+    44,
+    66
+   ]
+  },
+  {
+   "region": "crown",
+   "theta": -60,
+   "faces": [
+    66,
+    88
+   ]
+  },
+  {
+   "region": "crown",
+   "theta": -120,
+   "faces": [
+    88,
+    110
+   ]
+  },
+  {
+   "region": "top",
+   "theta": -30,
+   "faces": [
+    110,
+    132
+   ]
+  },
+  {
+   "region": "top",
+   "theta": -10,
+   "faces": [
+    132,
+    154
+   ]
+  },
+  {
+   "region": "top",
+   "theta": 10,
+   "faces": [
+    154,
+    176
+   ]
+  },
+  {
+   "region": "top",
+   "theta": 30,
+   "faces": [
+    176,
+    198
+   ]
+  },
+  {
+   "region": "frame",
+   "theta": 52.0,
+   "faces": [
+    198,
+    212
+   ]
+  },
+  {
+   "region": "frame",
+   "theta": -52.0,
+   "faces": [
+    212,
+    226
+   ]
+  },
+  {
+   "region": "frame",
+   "theta": 72.0,
+   "faces": [
+    226,
+    240
+   ]
+  },
+  {
+   "region": "frame",
+   "theta": -72.0,
+   "faces": [
+    240,
+    254
+   ]
+  },
+  {
+   "region": "side",
+   "theta": 100,
+   "faces": [
+    254,
+    276
+   ]
+  },
+  {
+   "region": "side",
+   "theta": 122,
+   "faces": [
+    276,
+    298
+   ]
+  },
+  {
+   "region": "side",
+   "theta": -100,
+   "faces": [
+    298,
+    320
+   ]
+  },
+  {
+   "region": "side",
+   "theta": -122,
+   "faces": [
+    320,
+    342
+   ]
+  },
+  {
+   "region": "back",
+   "theta": 150,
+   "faces": [
+    342,
+    364
+   ]
+  },
+  {
+   "region": "back",
+   "theta": 180,
+   "faces": [
+    364,
+    386
+   ]
+  },
+  {
+   "region": "back",
+   "theta": -150,
+   "faces": [
+    386,
+    408
+   ]
+  },
+  {
+   "region": "back",
+   "theta": 140,
+   "faces": [
+    408,
+    430
+   ]
+  },
+  {
+   "region": "back",
+   "theta": 165,
+   "faces": [
+    430,
+    452
+   ]
+  },
+  {
+   "region": "back",
+   "theta": -165,
+   "faces": [
+    452,
+    474
+   ]
+  },
+  {
+   "region": "back",
+   "theta": -140,
+   "faces": [
+    474,
+    496
+   ]
+  },
+  {
+   "region": "fringe",
+   "theta": -26,
+   "faces": [
+    496,
+    518
+   ],
+   "tip_above_brow_cm": 2.21,
+   "tip_above_brow_H": 0.081
+  },
+  {
+   "region": "fringe",
+   "theta": -17,
+   "faces": [
+    518,
+    540
+   ],
+   "tip_above_brow_cm": 1.99,
+   "tip_above_brow_H": 0.073
+  },
+  {
+   "region": "fringe",
+   "theta": -8,
+   "faces": [
+    540,
+    562
+   ],
+   "tip_above_brow_cm": 1.87,
+   "tip_above_brow_H": 0.068
+  },
+  {
+   "region": "fringe",
+   "theta": 0,
+   "faces": [
+    562,
+    584
+   ],
+   "tip_above_brow_cm": 1.66,
+   "tip_above_brow_H": 0.061
+  },
+  {
+   "region": "fringe",
+   "theta": 8,
+   "faces": [
+    584,
+    606
+   ],
+   "tip_above_brow_cm": 1.87,
+   "tip_above_brow_H": 0.068
+  },
+  {
+   "region": "fringe",
+   "theta": 17,
+   "faces": [
+    606,
+    628
+   ],
+   "tip_above_brow_cm": 1.94,
+   "tip_above_brow_H": 0.071
+  },
+  {
+   "region": "fringe",
+   "theta": 26,
+   "faces": [
+    628,
+    650
+   ],
+   "tip_above_brow_cm": 2.2,
+   "tip_above_brow_H": 0.08
+  }
+ ],
+ "clumps_per_region": {
+  "crown": 5,
+  "top": 4,
+  "frame": 4,
+  "side": 4,
+  "back": 7,
+  "fringe": 7
+ }
+}

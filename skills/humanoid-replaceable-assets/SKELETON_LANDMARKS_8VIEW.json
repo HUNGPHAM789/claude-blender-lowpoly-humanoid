@@ -1,0 +1,24 @@
+{
+ "schema":"LPM.PrimalReferenceAnnotation.v1",
+ "note":"All 2D pixel points are MANUAL APPROXIMATIONS from screenshots, not 3D bind-pose bones. Front rig positional uncertainty ~6-15px.",
+ "coordinate":{"origin":"top-left","x":"right","y":"down","unit":"pixel"},
+ "R01_front_rig":{"resolution":[481,820],"points":{
+   "head_top":[233,88],"head_chin":[233,154],"neck":[235,195],
+   "clavicle_left":[212,243],"clavicle_right":[256,244],
+   "shoulder_left":[141,222],"shoulder_right":[330,217],
+   "chest_center":[235,278],"abdomen_center":[235,372],"pelvis_center":[235,450],
+   "elbow_left":[115,342],"elbow_right":[353,340],
+   "wrist_left":[77,449],"wrist_right":[388,445],
+   "hip_left":[193,457],"hip_right":[277,456],
+   "knee_left":[168,583],"knee_right":[307,586],
+   "ankle_left":[165,736],"ankle_right":[323,741]
+ }},
+ "R04_front_wire_silhouette":{"resolution":[426,820],"approx_boxes_xyxy":{
+   "full_height":[48,19,393,798],"hair_and_beard":[164,19,281,163],
+   "shoulder_envelope":[98,180,356,251],"chest":[119,240,345,315],
+   "belt_region":[141,374,311,416],"kilt_skirt":[117,438,343,561],
+   "left_boot":[68,630,171,798],"right_boot":[271,630,351,798]
+ }},
+ "derived_target":{"human_height_m":1.8,"pixel_to_meter":"779px projected / 1.80m chosen target (NOT source mesh scale)","glb_up":"+Y","authoring_up":"+Z"},
+ "unknown_fields":["actual source bone names","vertex skin weights","bind pose transforms","true bone roll","source mesh material UVs","absolute physical meter scale"]
+}

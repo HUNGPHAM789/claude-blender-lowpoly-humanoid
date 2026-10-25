@@ -1,0 +1,268 @@
+{
+ "tris": {
+  "hair": {
+   "moustache": 44,
+   "beard_outer": 226,
+   "beard_contact__movable": 224,
+   "hair_chunks": 150,
+   "hair_cap__movable": 100
+  },
+  "outfit": {
+   "stone": 36,
+   "rope_belt": 120,
+   "skirt_main_panels": 304,
+   "skirt_under_panels": 210,
+   "skirt_tan_reveals": 120,
+   "skirt_shell__movable": 128
+  },
+  "hair_total": 744,
+  "skirt_total": 762
+ },
+ "counts": {
+  "clumps_per_region": {
+   "crown_chunks": 5
+  },
+  "beard_lobes": 6,
+  "moustache_lobes": 2,
+  "panels": {
+   "main": 8,
+   "under": 7,
+   "tan_reveals": 4
+  }
+ },
+ "closed_before_flat_export": {
+  "skirt_shell__movable": false,
+  "skirt_tan_reveals": true,
+  "skirt_under_panels": true,
+  "skirt_main_panels": true,
+  "rope_belt": true,
+  "stone": true
+ },
+ "clipping": {
+  "moustache": {
+   "inside": 0,
+   "deepest_mm": 0.0
+  },
+  "beard_outer": {
+   "inside": 1,
+   "deepest_mm": 5.73
+  },
+  "beard_contact__movable": {
+   "inside": 5,
+   "deepest_mm": 6.77
+  },
+  "hair_chunks": {
+   "inside": 0,
+   "deepest_mm": 0.0
+  },
+  "hair_cap__movable": {
+   "inside": 1,
+   "deepest_mm": 2.95
+  },
+  "stone": {
+   "inside": 0,
+   "deepest_mm": 0.0,
+   "trunk_inside": 0,
+   "trunk_deepest_mm": 0.0
+  },
+  "rope_belt": {
+   "inside": 0,
+   "deepest_mm": 0.0,
+   "trunk_inside": 0,
+   "trunk_deepest_mm": 0.0
+  },
+  "skirt_main_panels": {
+   "inside": 0,
+   "deepest_mm": 0.0,
+   "trunk_inside": 0,
+   "trunk_deepest_mm": 0.0
+  },
+  "skirt_under_panels": {
+   "inside": 0,
+   "deepest_mm": 0.0,
+   "trunk_inside": 0,
+   "trunk_deepest_mm": 0.0
+  },
+  "skirt_tan_reveals": {
+   "inside": 0,
+   "deepest_mm": 0.0,
+   "trunk_inside": 0,
+   "trunk_deepest_mm": 0.0
+  },
+  "skirt_shell__movable": {
+   "inside": 0,
+   "deepest_mm": 0.0,
+   "trunk_inside": 0,
+   "trunk_deepest_mm": 0.0
+  }
+ },
+ "beard_contact": {
+  "patch_points": 599,
+  "coverage": 0.9967,
+  "gap_mm_p50": 3.6,
+  "gap_mm_p95": 8.38,
+  "gap_mm_max": 19.16,
+  "penetration_mm": 0.0
+ },
+ "beard_envelope": {
+  "limit_mm": 17.0,
+  "outer_offset_mm_p50": 12.3,
+  "outer_offset_mm_max": 18.9,
+  "max_excursion_beyond_mm": 1.9
+ },
+ "face_rays_blocked_of_3": {
+  "eye_L": 0,
+  "eye_R": 0,
+  "nose": 0,
+  "mouth": 3,
+  "cheek_L": 0,
+  "cheek_R": 0
+ },
+ "hair_root_concealment": {
+  "front": {
+   "roots_facing": 0,
+   "exposed": 0
+  },
+  "q_front_L": {
+   "roots_facing": 0,
+   "exposed": 0
+  },
+  "side_L": {
+   "roots_facing": 5,
+   "exposed": 0
+  },
+  "q_back_L": {
+   "roots_facing": 5,
+   "exposed": 0
+  },
+  "back": {
+   "roots_facing": 5,
+   "exposed": 0
+  },
+  "side_R": {
+   "roots_facing": 5,
+   "exposed": 0
+  },
+  "q_front_R": {
+   "roots_facing": 0,
+   "exposed": 0
+  }
+ },
+ "tan_share_unlit": {
+  "front": {
+   "tan_share": 0.248,
+   "tan_px": 1094,
+   "dark_px": 3313
+  },
+  "q_front_L": {
+   "tan_share": 0.225,
+   "tan_px": 874,
+   "dark_px": 3014
+  },
+  "q_front_R": {
+   "tan_share": 0.235,
+   "tan_px": 906,
+   "dark_px": 2943
+  },
+  "side_L": {
+   "tan_share": 0.207,
+   "tan_px": 400,
+   "dark_px": 1531
+  },
+  "back": {
+   "tan_share": 0.244,
+   "tan_px": 1069,
+   "dark_px": 3309
+  }
+ },
+ "see_through": {
+  "panels_only": {
+   "zone_points": 4217,
+   "misses": 317,
+   "zone_y": [
+    0.919,
+    1.103
+   ]
+  },
+  "with_shell": {
+   "zone_points": 4217,
+   "misses": 0,
+   "zone_y": [
+    0.919,
+    1.103
+   ]
+  },
+  "with_shell_or_own_hand": {
+   "zone_points": 4217,
+   "misses": 0,
+   "zone_y": [
+    0.919,
+    1.103
+   ]
+  }
+ },
+ "hands_vs_skirt": {
+  "stone": {
+   "min_clearance_mm": 246.9,
+   "samples_within_10mm": 0,
+   "samples_inside_hand": 0
+  },
+  "rope_belt": {
+   "min_clearance_mm": 29.9,
+   "samples_within_10mm": 0,
+   "samples_inside_hand": 0
+  },
+  "skirt_main_panels": {
+   "min_clearance_mm": 51.2,
+   "samples_within_10mm": 0,
+   "samples_inside_hand": 0
+  },
+  "skirt_under_panels": {
+   "min_clearance_mm": 67.6,
+   "samples_within_10mm": 0,
+   "samples_inside_hand": 0
+  },
+  "skirt_tan_reveals": {
+   "min_clearance_mm": 14.9,
+   "samples_within_10mm": 0,
+   "samples_inside_hand": 0
+  },
+  "skirt_shell__movable": {
+   "min_clearance_mm": 44.3,
+   "samples_within_10mm": 0,
+   "samples_inside_hand": 0
+  }
+ },
+ "hands_vs_skirt_min_mm": 14.9,
+ "lateral_half_width": {
+  "1.05": {
+   "skirt_half_width_cm_L": 17.2,
+   "skin_L": 16.7,
+   "skirt_half_width_cm_R": 12.4,
+   "skin_R": 15.2
+  },
+  "0.95": {
+   "skirt_half_width_cm_L": 20.0,
+   "skin_L": 18.7,
+   "skirt_half_width_cm_R": 18.7,
+   "skin_R": 17.2
+  },
+  "0.85": {
+   "skirt_half_width_cm_L": 19.7,
+   "skin_L": 20.9,
+   "skirt_half_width_cm_R": 19.4,
+   "skin_R": 22.7
+  },
+  "0.75": {
+   "skirt_half_width_cm_L": 7.9,
+   "skin_L": 22.3,
+   "skirt_half_width_cm_R": 18.5,
+   "skin_R": 20.6
+  }
+ },
+ "fails": [
+  "beard_outer clips 5.73 mm",
+  "beard contact gap p95 > 6 or max > 8 mm",
+  "skin visible through the skirt panels"
+ ]
+}

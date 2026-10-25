@@ -1,0 +1,695 @@
+{
+ "spec": "primal_body_anatomy",
+ "version": "1.1",
+ "date": "2026-10-25",
+ "source": "Hunyuan3D-2 base bodies (Codex base-body images of the official primal sheets), measured with analyze_anatomy.py (exact z-buffer depth maps 2.5 mm + nearest-bone limb slices)",
+ "units": "cm; heights relative to the named joint; glTF Y up, body faces +Z",
+ "sexes": {
+  "male": {
+   "face_T_zone": {
+    "nose": {
+     "tip_y_frac_of_head": 0.096,
+     "tip_proud_cm": 4.14,
+     "bridge_y_frac_of_head": 0.625
+    },
+    "brow_height_frac_of_head": 0.625,
+    "brow_over_eye_socket_cm": 2.03,
+    "brow_span_cm": 4.5,
+    "brow_tilt_deg": 35.3,
+    "T_zone": {
+     "brow_band_y": [
+      1.6848,
+      1.7068
+     ],
+     "brow_band_half_width_x": 0.062,
+     "nose_strip_half_width_x": 0.012,
+     "nose_strip_y": [
+      1.5498,
+      1.6948
+     ]
+    }
+   },
+   "chest": {
+    "peak_y_above_chest_joint_cm": 7.6,
+    "peak_proud_over_fold_cm": 1.93,
+    "fold_below_peak_cm": 6.0,
+    "upper_slope_deg_from_vertical": 20.6,
+    "underside_max_slope_deg": 51.7,
+    "x_cm": 8.5
+   },
+   "clavicle": {
+    "proud_over_hollow_below_cm": 1.24,
+    "rise_deg_sternum_to_shoulder": 17.7,
+    "y_below_neck_joint_cm": 6.8
+   },
+   "trapezius": {
+    "neck_to_shoulder_drop_cm": 5.2,
+    "slope_deg": 13.7,
+    "bulge_over_chord_cm": 3.05
+   },
+   "spine_groove": {
+    "max_depth_cm": 1.52,
+    "deepest_at_frac_pelvis_to_neck": 0.71,
+    "median_depth_cm": 0.9
+   },
+   "glutes": {
+    "peak_y_from_pelvis_joint_cm": 10.0,
+    "proud_over_fold_cm": 5.31,
+    "fold_below_peak_cm": 14.0,
+    "lower_back_hollow_depth_cm": 6.36,
+    "lower_back_hollow_above_peak_cm": 15.7
+   },
+   "limbs": {
+    "upper_arm": {
+     "length_cm": 30.3,
+     "radius_cm_every_1cm": [
+      10.62,
+      12.2,
+      9.62,
+      10.33,
+      10.74,
+      10.91,
+      11.19,
+      12.86,
+      12.85,
+      12.51,
+      12.35,
+      12.12,
+      12.07,
+      11.75,
+      11.96,
+      11.91,
+      10.54,
+      10.09,
+      9.39,
+      8.82,
+      8.06,
+      7.68,
+      7.59,
+      8.04,
+      8.2,
+      8.22,
+      8.21,
+      7.97,
+      7.8,
+      7.99,
+      7.86
+     ],
+     "belly_at_frac": 0.23,
+     "belly_over_ends": 1.64
+    },
+    "forearm_to_hand": {
+     "length_cm": 19.9,
+     "radius_cm_every_1cm": [
+      7.67,
+      7.62,
+      7.4,
+      7.0,
+      6.54,
+      5.86,
+      5.56,
+      5.55,
+      5.09,
+      4.86,
+      4.76,
+      4.5,
+      4.52,
+      4.44,
+      4.57,
+      5.07,
+      5.63,
+      6.58,
+      7.41,
+      8.27,
+      8.8,
+      9.68,
+      9.27,
+      10.18,
+      10.28,
+      10.66,
+      10.53,
+      11.17,
+      11.97,
+      11.49,
+      11.21,
+      10.94,
+      10.86,
+      10.77
+     ]
+    },
+    "thigh": {
+     "length_cm": 30.0,
+     "radius_cm_every_1cm": [
+      12.89,
+      12.87,
+      12.18,
+      12.24,
+      12.02,
+      11.89,
+      12.21,
+      11.91,
+      12.5,
+      12.1,
+      11.67,
+      11.93,
+      11.58,
+      11.31,
+      12.83,
+      12.66,
+      12.68,
+      12.0,
+      11.63,
+      11.1,
+      10.93,
+      10.1,
+      9.87,
+      9.37,
+      8.95,
+      8.51,
+      8.18,
+      8.06,
+      8.09,
+      8.13
+     ],
+     "belly_at_frac": 0.0,
+     "belly_over_ends": 1.59
+    },
+    "shin": {
+     "length_cm": 40.8,
+     "radius_cm_every_1cm": [
+      8.35,
+      8.11,
+      8.0,
+      7.8,
+      7.87,
+      8.13,
+      8.65,
+      8.74,
+      9.27,
+      9.56,
+      10.13,
+      10.21,
+      10.65,
+      11.02,
+      11.44,
+      11.65,
+      11.96,
+      11.53,
+      10.86,
+      11.03,
+      10.82,
+      10.67,
+      10.22,
+      9.1,
+      9.58,
+      8.4,
+      9.03,
+      8.31,
+      8.16,
+      8.11,
+      7.78,
+      7.16,
+      7.26,
+      7.03,
+      6.5,
+      6.46,
+      6.37,
+      6.16,
+      5.97,
+      5.81,
+      5.77
+     ],
+     "belly_at_frac": 0.4,
+     "belly_over_ends": 2.07
+    },
+    "forearm_wrist_thumb": {
+     "forearm_belly_cm_from_elbow": 3,
+     "forearm_belly_radius_cm": 7.0,
+     "wrist_cm_from_elbow": 13,
+     "wrist_radius_cm": 4.44,
+     "thenar_cm_from_elbow": 28,
+     "hand_max_radius_cm": 11.97,
+     "wrist_over_belly": 0.63,
+     "hand_over_wrist": 2.7
+    }
+   }
+  },
+  "female": {
+   "face_T_zone": {
+    "nose": {
+     "tip_y_frac_of_head": 0.09,
+     "tip_proud_cm": 8.24,
+     "bridge_y_frac_of_head": 0.592
+    },
+    "brow_height_frac_of_head": 0.592,
+    "brow_over_eye_socket_cm": 1.81,
+    "brow_span_cm": 4.5,
+    "brow_tilt_deg": -44.6,
+    "T_zone": {
+     "brow_band_y": [
+      1.5239,
+      1.5459
+     ],
+     "brow_band_half_width_x": 0.062,
+     "nose_strip_half_width_x": 0.012,
+     "nose_strip_y": [
+      1.4089,
+      1.5339
+     ]
+    }
+   },
+   "chest": {
+    "peak_y_above_chest_joint_cm": 3.3,
+    "peak_proud_over_fold_cm": 7.66,
+    "fold_below_peak_cm": 13.0,
+    "upper_slope_deg_from_vertical": 34.1,
+    "underside_max_slope_deg": 62.1,
+    "x_cm": 7.5
+   },
+   "clavicle": {
+    "proud_over_hollow_below_cm": 2.83,
+    "rise_deg_sternum_to_shoulder": null,
+    "y_below_neck_joint_cm": 7.0
+   },
+   "trapezius": {
+    "neck_to_shoulder_drop_cm": 3.8,
+    "slope_deg": 15.5,
+    "bulge_over_chord_cm": 1.39
+   },
+   "spine_groove": {
+    "max_depth_cm": 1.07,
+    "deepest_at_frac_pelvis_to_neck": 0.22,
+    "median_depth_cm": 0.83
+   },
+   "glutes": {
+    "peak_y_from_pelvis_joint_cm": 9.3,
+    "proud_over_fold_cm": 3.59,
+    "fold_below_peak_cm": 13.8,
+    "lower_back_hollow_depth_cm": 7.83,
+    "lower_back_hollow_above_peak_cm": 14.8
+   },
+   "limbs": {
+    "upper_arm": {
+     "length_cm": 27.7,
+     "radius_cm_every_1cm": [
+      11.59,
+      11.44,
+      10.98,
+      10.14,
+      10.62,
+      9.73,
+      9.77,
+      9.93,
+      9.84,
+      8.72,
+      8.52,
+      10.29,
+      10.45,
+      10.43,
+      9.52,
+      9.65,
+      5.97,
+      5.63,
+      5.07,
+      4.82,
+      4.95,
+      5.34,
+      5.55,
+      5.72,
+      10.25,
+      10.27,
+      9.86,
+      10.16
+     ],
+     "belly_at_frac": 0.0,
+     "belly_over_ends": 1.14
+    },
+    "forearm_to_hand": {
+     "length_cm": 18.2,
+     "radius_cm_every_1cm": [
+      7.72,
+      9.53,
+      5.48,
+      8.73,
+      9.01,
+      8.65,
+      8.39,
+      3.98,
+      3.77,
+      3.55,
+      3.48,
+      3.44,
+      3.5,
+      3.45,
+      3.5,
+      3.85,
+      4.75,
+      8.0,
+      8.04,
+      8.17,
+      7.84,
+      8.78,
+      7.28,
+      8.63,
+      7.95,
+      7.92,
+      8.15,
+      8.05,
+      8.43,
+      9.1,
+      8.45,
+      8.19,
+      8.66
+     ]
+    },
+    "thigh": {
+     "length_cm": 26.0,
+     "radius_cm_every_1cm": [
+      11.3,
+      11.3,
+      11.15,
+      11.15,
+      10.85,
+      10.92,
+      11.11,
+      10.67,
+      10.63,
+      10.28,
+      10.07,
+      9.89,
+      9.69,
+      9.58,
+      9.33,
+      8.78,
+      8.69,
+      8.28,
+      7.72,
+      7.48,
+      7.41,
+      7.42,
+      7.66,
+      7.73,
+      7.63,
+      7.28
+     ],
+     "belly_at_frac": 0.0,
+     "belly_over_ends": 1.55
+    },
+    "shin": {
+     "length_cm": 37.0,
+     "radius_cm_every_1cm": [
+      6.79,
+      6.57,
+      6.5,
+      7.0,
+      7.54,
+      7.94,
+      8.37,
+      8.92,
+      9.38,
+      9.7,
+      9.95,
+      9.87,
+      9.97,
+      9.85,
+      9.52,
+      9.16,
+      8.94,
+      8.75,
+      8.45,
+      8.03,
+      7.77,
+      7.37,
+      7.08,
+      6.7,
+      6.29,
+      6.25,
+      5.85,
+      5.54,
+      5.52,
+      5.24,
+      5.1,
+      4.78,
+      4.55,
+      4.5,
+      4.4,
+      4.64,
+      5.07,
+      5.83
+     ],
+     "belly_at_frac": 0.32,
+     "belly_over_ends": 1.71
+    },
+    "forearm_wrist_thumb": {
+     "forearm_belly_cm_from_elbow": 4,
+     "forearm_belly_radius_cm": 9.01,
+     "wrist_cm_from_elbow": 13,
+     "wrist_radius_cm": 3.45,
+     "thenar_cm_from_elbow": 29,
+     "hand_max_radius_cm": 9.1,
+     "wrist_over_belly": 0.38,
+     "hand_over_wrist": 2.64
+    }
+   }
+  }
+ },
+ "eyebrows": {
+  "rule": "thick primal brow bar per side on the measured brow ridge: straight line through the median ridge height at the inner (|x|<3 cm) and outer (\u22653.5 cm) ends, tilt clamped \u00b115\u00b0, 3 mm arch, inner end 4 mm lower (frown)",
+  "size_cm": {
+   "x_from_midline": [
+    1.0,
+    6.2
+   ],
+   "height_inner": 2.2,
+   "height_outer": 1.2,
+   "proud_inner": 1.2,
+   "proud_outer": 0.7
+  },
+  "tris_per_pair": 120,
+  "colour": [
+   58,
+   40,
+   28
+  ],
+  "tool": "add_eyebrows.py"
+ },
+ "confidence": {
+  "male": "good: brow ridge, nose, pec underside, glutes + lower-back hollow, spine groove, trapezius, forearm\u2192wrist",
+  "female": "good: glutes + lower-back hollow, spine groove, trapezius, forearm\u2192wrist; DOUBTFUL: nose tip 8.2 cm (likely picked the chin), underbust fold 13 cm below the peak (too low \u2014 earlier mesh gate measured 5.1 cm bust protrusion), brow tilt",
+  "both": "clavicle found only at the outer ends (inner ridge too flat in the teachers); hand_max includes the fingers (not a pure thenar measure); thigh belly_at_frac 0 = widest at the hip root"
+ },
+ "measured": {
+  "male": {
+   "face_T_zone": {
+    "midline_x_cm": -1.19,
+    "nose_tip_y_frac_of_head": 0.068,
+    "nose_tip_proud_cm": 3.86,
+    "bridge_half_width_cm": 0.95,
+    "eye_y_abs": 1.661,
+    "eye_y_frac_of_head": 0.502,
+    "brow_y_frac_of_head": 0.616,
+    "brow_over_eye_socket_cm": 2.12,
+    "brow_height_left_vs_right_cm": 0.0,
+    "T_zone": {
+     "brow_band_y": [
+      1.6823,
+      1.7073
+     ],
+     "brow_band_x_from_midline": [
+      0.0095,
+      0.072
+     ],
+     "nose_strip_half_width": 0.0095,
+     "nose_strip_y": [
+      1.5423,
+      1.6923
+     ]
+    }
+   },
+   "ears": {
+    "left": {
+     "most_proud_point": [
+      0.1043,
+      1.6855,
+      0.0212
+     ],
+     "proud_cm": 1.43,
+     "lobe_bottom_point": [
+      0.0876,
+      1.638,
+      0.0437
+     ],
+     "top_point": [
+      0.0989,
+      1.7105,
+      0.0337
+     ],
+     "height_cm": 7.2,
+     "depth_cm": 3.2,
+     "lobe_y_frac_of_head": 0.418,
+     "top_y_frac_of_head": 0.683
+    },
+    "right": {
+     "most_proud_point": [
+      -0.1173,
+      1.6855,
+      0.0162
+     ],
+     "proud_cm": 1.45,
+     "lobe_bottom_point": [
+      -0.0992,
+      1.6355,
+      0.0387
+     ],
+     "top_point": [
+      -0.1127,
+      1.7105,
+      0.0312
+     ],
+     "height_cm": 7.5,
+     "depth_cm": 3.5,
+     "lobe_y_frac_of_head": 0.409,
+     "top_y_frac_of_head": 0.683
+    }
+   },
+   "crotch": {
+    "front": {
+     "midline_proud_over_thigh_front_cm_max": 0.29,
+     "at_cm_above_apex": 8.5,
+     "groin_crease_depth_cm_max": 1.68,
+     "crease_at_cm_above_apex": 6.5,
+     "crease_cm_from_midline": 2.3
+    },
+    "back": {
+     "gluteal_cleft_depth_cm_max": 11.96,
+     "at_cm_above_apex": 0.5,
+     "cleft_closes_cm_above_apex": 15.0
+    },
+    "apex_below_pelvis_joint_cm": 0.7,
+    "apex_frac_of_height": 0.443,
+    "hip_joint_spacing_cm": 10.7,
+    "thigh_gap_width_below_apex": {
+     "1cm": 2.2,
+     "2cm": 2.8,
+     "4cm": 3.8,
+     "6cm": 4.8,
+     "10cm": 7.0,
+     "20cm": 12.2
+    }
+   }
+  },
+  "female": {
+   "face_T_zone": {
+    "midline_x_cm": 0.9,
+    "nose_tip_y_frac_of_head": 0.1,
+    "nose_tip_proud_cm": 8.77,
+    "bridge_half_width_cm": 0.95,
+    "eye_y_abs": 1.5039,
+    "eye_y_frac_of_head": 0.472,
+    "brow_y_frac_of_head": 0.572,
+    "brow_over_eye_socket_cm": 1.7,
+    "brow_height_left_vs_right_cm": 0.0,
+    "T_zone": {
+     "brow_band_y": [
+      1.5189,
+      1.5439
+     ],
+     "brow_band_x_from_midline": [
+      0.0095,
+      0.072
+     ],
+     "nose_strip_half_width": 0.0095,
+     "nose_strip_y": [
+      1.4114,
+      1.5289
+     ]
+    }
+   },
+   "ears": {
+    "left": {
+     "most_proud_point": [
+      0.088,
+      1.5078,
+      0.0309
+     ],
+     "proud_cm": 1.37,
+     "lobe_bottom_point": [
+      0.0767,
+      1.4803,
+      0.0534
+     ],
+     "top_point": [
+      0.0927,
+      1.5428,
+      0.0434
+     ],
+     "height_cm": 6.2,
+     "depth_cm": 3.2,
+     "lobe_y_frac_of_head": 0.377,
+     "top_y_frac_of_head": 0.628
+    },
+    "right": {
+     "most_proud_point": [
+      -0.0864,
+      1.5103,
+      0.0409
+     ],
+     "proud_cm": 1.36,
+     "lobe_bottom_point": [
+      -0.0719,
+      1.4803,
+      0.0609
+     ],
+     "top_point": [
+      -0.0879,
+      1.5428,
+      0.0534
+     ],
+     "height_cm": 6.2,
+     "depth_cm": 2.8,
+     "lobe_y_frac_of_head": 0.377,
+     "top_y_frac_of_head": 0.628
+    }
+   },
+   "crotch": {
+    "front": {
+     "midline_proud_over_thigh_front_cm_max": -0.15,
+     "at_cm_above_apex": 19.0,
+     "groin_crease_depth_cm_max": 4.87,
+     "crease_at_cm_above_apex": 7.5,
+     "crease_cm_from_midline": 2.0
+    },
+    "back": {
+     "gluteal_cleft_depth_cm_max": 4.57,
+     "at_cm_above_apex": 1.5,
+     "cleft_closes_cm_above_apex": 15.0
+    },
+    "apex_below_pelvis_joint_cm": 7.3,
+    "apex_frac_of_height": 0.402,
+    "hip_joint_spacing_cm": 15.9,
+    "thigh_gap_width_below_apex": {
+     "1cm": 4.8,
+     "2cm": 5.8,
+     "4cm": 6.8,
+     "6cm": 7.8,
+     "10cm": 10.2,
+     "20cm": 14.0
+    }
+   }
+  }
+ },
+ "brow_rules": {
+  "placement": "vertical CENTRE of the brow on the brow ridge = first row within 1 mm of the peak above the eye socket (socket rim; the female forehead is a plateau); inner end at the nose-bridge edge measured at the socket rows; mirrored about the FACE midline (not x=0)",
+  "male": "big hairy bar 2.6->1.4 cm tall, 6 flat spikes 1.2-2.0 cm flowing up/out",
+  "female": "slim arch 1.3->0.6 cm, no spikes",
+  "gates": [
+   "L/R asymmetry <= 0.3 cm",
+   "brow centre within 0.8 cm of the most-proud row re-measured from the mesh (a brow in the socket fails, rc=1)"
+  ]
+ },
+ "crotch_rules": {
+  "male": "filled front: midline level with the thigh fronts from ~6.5 cm above the apex (bulge), groin creases 1.7 cm deep 2.3 cm off the midline; apex ~at the pelvis joint; narrow thigh gap (2.2 cm at 1 cm below apex)",
+  "female": "recessed front: midline sits 6-7.6 cm behind the thigh fronts for the first 13 cm above the apex (a valley between the thighs); creases ~4.9 cm deep along the inner thighs; apex 7.3 cm below the pelvis joint; wider gap (4.8 cm at 1 cm below)",
+  "back": "male gluteal cleft much deeper (~12 cm vs ~4.6 cm) \u2014 male glutes stand further out either side of the midline"
+ }
+}

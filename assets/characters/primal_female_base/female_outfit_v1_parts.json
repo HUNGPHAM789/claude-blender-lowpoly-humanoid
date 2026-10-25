@@ -1,0 +1,37 @@
+{
+ "out": "/private/tmp/claude-501/-Users-hungpham-projects-GameDev/7859a82b-9edc-4e91-8191-83412351f94f/scratchpad/prim/fem/t_tol2.glb",
+ "source": "/private/tmp/claude-501/-Users-hungpham-projects-GameDev/7859a82b-9edc-4e91-8191-83412351f94f/scratchpad/prim/fem/female_outfit_raw_final.glb",
+ "side_scale": 0.3,
+ "waist_scale": 0.5,
+ "blend_deg": 22.0,
+ "hand_wedge_deg": {
+  "L": [
+   63.9,
+   90.0
+  ],
+  "R": [
+   -90.0,
+   -59.1
+  ]
+ },
+ "faces_removed_at_hand": {
+  "skirt_lining": 140,
+  "skirt_lower_tier": 40,
+  "skirt_upper_tier": 46,
+  "rope_belt": 0
+ },
+ "tris": {
+  "skirt_lining": 286,
+  "skirt_lower_tier": 248,
+  "skirt_upper_tier": 303,
+  "rope_belt": 140,
+  "ornament": 24
+ },
+ "min_edge_mm": {
+  "skirt_lining": 12.35,
+  "skirt_lower_tier": 25.27,
+  "skirt_upper_tier": 2.08,
+  "rope_belt": 19.19,
+  "ornament": 8.11
+ }
+}

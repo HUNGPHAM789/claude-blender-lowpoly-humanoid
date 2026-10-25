@@ -1,0 +1,54 @@
+{
+  "schema": "LPM.StarterAssetPreset.v1",
+  "id": "starter_mammoth_adult_v1",
+  "family": "animal",
+  "species": "mammoth",
+  "stage": "adult",
+  "height_m": 3.2,
+  "body": {
+    "back_height_to_body_length": [
+      0.7,
+      0.85
+    ]
+  },
+  "features": {
+    "trunk_segments": [
+      8,
+      14
+    ],
+    "trunk_bones": [
+      5,
+      8
+    ],
+    "tusk_path_samples": [
+      10,
+      18
+    ],
+    "fur_bands": [
+      3,
+      5
+    ],
+    "toenails": [
+      4,
+      5
+    ]
+  },
+  "seed": 1139,
+  "coordinate_system": "Y_UP_RIGHT_HANDED",
+  "forward": "+Z",
+  "asset_units": "meters",
+  "reference_status": "screenshot_inferred_design_targets_not_measured_source_mesh",
+  "scale_reference": "shoulder_height_or_body_length_as_defined_in_spec",
+  "tri_budget": {
+    "lod0_max": 4000,
+    "lod1_max": 2000,
+    "lod2_max": 1000
+  },
+  "rig_required": true,
+  "geometry_contract": {
+    "flat_shading": true,
+    "triangulated_facets": true,
+    "detachable_visual_layers": true
+  },
+  "source_spec": "../STARTER_ANIMALS_SPEC.md"
+}

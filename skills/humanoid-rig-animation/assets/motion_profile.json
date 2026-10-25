@@ -1,0 +1,67 @@
+{
+ "version": 1,
+ "_doc": "retarget_sam thresholds (P1 23/10/2026, ideas ported from squall01337/mixamo-llm-mocap retarget_smplx.py, MIT). Units: m, m/s, frames at 24 fps, deg. A number changes ONLY with a positive + a negative fixture at the new value (test_spec/README.md threshold rule). Env NEN_PCT overrides nen_pct (mutation fixture neg_sam_base_pct0_no_contact).",
+ "nen_pct": 25,
+ "cham": {
+  "_doc": "foot contact (stance) detection with hysteresis: ENTER needs low AND slow (or still on screen and low-ish); STAY until high OR fast (or still on screen). A stance ENDS (release) on exit, on source drift > troi_cat_m or turn > xoay_cat_deg (both ignored while the image says still); after a release the foot is free for mo_khoa_khung frames (XY lock fades by time x height) and no new stance may start. Free feet never sit in the floor: z >= floor + bay_ho_m (a moving foot is a shuffle, not a slide). Pitch/yaw of a free foot clamped to ankle ROM (co_chan_gap_min_deg vs shin, ban_chan_vat_max_deg off the leg plane) = what gates 13/13b measure. P1-g 24/10: neo_khung 3 -> 1 (median anchor snapped the foot 8-13 cm at entry while the source still moved: foot jitter 155 mm/frame^2); a foot DESCENDING below vao_xuong_cao_m and slow also enters a stance; the stance heel-raise is computed per frame then smoothed with a running max over +-nhon_lam_muot_khung frames (per-frame decisions toggled flat/toe-stand every few frames). Mutations: THU_NEO_TRUNG_VI=1 (3-frame median anchor), THU_NHON_TUNG_KHUNG=1 (per-frame heel-raise). ha_moi_khung_m 0.02 -> 0.05 (24/10: an image-evidence entry with the 3D foot 9 cm up took 5 frames to set down = the 'foot hangs a beat' Boss saw; 5 cm/frame = 1.1 m/s landing). Mutation THU_HA_CHAM=1 = 0.02.",
+  "vao_cao_m": 0.03,
+  "vao_v_mps": 0.25,
+  "ra_cao_m": 0.06,
+  "ra_v_mps": 0.5,
+  "anh_v_mps": 0.12,
+  "anh_vao_cao_m": 0.12,
+  "anh_o_cao_m": 0.3,
+  "anh_tin_cay": 0.5,
+  "anh_loc_khung": 2,
+  "toi_thieu_khung": 4,
+  "neo_khung": 1,
+  "troi_cat_m": 0.04,
+  "xoay_cat_deg": 20,
+  "ha_moi_khung_m": 0.05,
+  "bay_ho_m": 0.02,
+  "mo_khoa_cao_m": 0.06,
+  "phang_cao_m": 0.03,
+  "phang_v_mps": 0.35,
+  "mui_lech_max_deg": 10,
+  "mo_khoa_khung": 4,
+  "len_moi_khung_m": 0.05,
+  "co_chan_gap_min_deg": 60,
+  "ban_chan_vat_max_deg": 20,
+  "nhon_got_toi_thieu_deg": 15,
+  "vao_xuong_cao_m": 0.06,
+  "nhon_lam_muot_khung": 3
+ },
+ "hong": {
+  "_doc": "pelvis lowering when a planted foot is out of leg reach: solved as a smooth curve (running max over cua_so_khung, gaussian sigma_khung), never per frame; capped at ha_toi_da_m (0.05 -> 0.10 Boss 23/10: lao rear leg at full reach needed 96-101 mm, 13 stuck at 53.9). Mutation THU_HONG_KHONG_HA=1 = cap 0.",
+  "ha_toi_da_m": 0.1,
+  "cua_so_khung": 9,
+  "sigma_khung": 2.0,
+  "voi_ti_le": 0.995
+ },
+ "co_tay": {
+  "_doc": "wrist clamp inside retarget_sam: scale the wrist motion (slerp toward neutral) until per-axis ROM (CO_TAY_ROM) and the total forearm-hand angle both hold.",
+  "tong_toi_da_deg": 50
+ },
+ "glitch": {
+  "_doc": "source-frame outlier repair BEFORE contact detection (motion cleanup, not per clip): a joint that jumps more than max_m_per_frame (source fps) and comes back within quay_lai_khung frames is an estimator glitch -> the whole frame span is re-interpolated (positions lerp, rotations slerp). A genuine lunge is large but monotonic and is left alone. Human limit: sprint foot ~6-7 m/s = 0.20-0.23 m/frame at 30 fps.",
+  "max_m_per_frame": 0.25,
+  "quay_lai_khung": 3
+ },
+ "chan": {
+  "_doc": "gate 11 (Boss 23/10 «Đồng ý cả hai»): a PLANTED foot is measured against the hip heading at STANCE START (first contact frame), and the hips may pivot on it up to xoay_tai_cho_max_deg before the foot must be re-placed (ball-of-foot pivot is physical; translation measured 0.0 mm in every stance). Single low frames keep the old per-frame comparison. 30 -> 50 (coordinator 24/10, from the measurement: a spear throw pivots the hips 41-48 deg on the planted foot, translation 0 mm). Mutation THU_XOAY_TAI_CHO_0=1 = allowance 0.",
+  "xoay_tai_cho_max_deg": 50
+ },
+ "lam_muot_nguon": {
+  "_doc": "P1-k 24/10 source smoother (Boss, 3rd time: 'van con giat nhe luc phong lao'). Whole-body measurement vs the source showed the output upper body == source to 0.25 deg/frame^2 and hips XY acceleration == source (115.6 / 132.6 mm/frame^2 at f47/f50 = 7-8 g, GVHMR translation noise) => the jitter is IN the source. Zero-phase (forward+backward averaged) one-euro filter on joint positions (beta per m/s) and joint rotations (beta per rad/s) BEFORE retarget, after the glitch repair; cutoff = min_cutoff + beta*|v| so slow jitter is cut and the release spike passes. Acceptance: wrist peak speed after >= giu_dinh_toi_thieu x before (retarget_sam prints LAM_MUOT_NGUON and refuses otherwise). bat=0 or THU_KHONG_LAM_MUOT_NGUON=1 disables (mutation). DEFAULT OFF 24/10: enabling changes the contact windows (new R stance 50-54 = toe drag after release; its exit is infeasible in 4 frames: 100.7 mm @R54) and gate 23 at L44, so the 24 sam fixtures would all need re-measuring; opt in with LAM_MUOT_NGUON=1 (fixture neg_sam_ltx_spear_source_smoother_on holds the current numbers). P1-l: DEFAULT ON; root joint (hips translation) filtered harder (min_cutoff_root_hz, beta_root per m/s) than the limbs; second acceptance: the hips lunge reach (max XY distance from frame 0) must stay within lech_tam_lao_toi_da (2 %) of before, so the smoother cannot shorten the lunge. Reverse flag: LAM_MUOT_NGUON=0 / THU_KHONG_LAM_MUOT_NGUON=1.",
+  "bat": 1,
+  "fs_nguon": 30.0,
+  "min_cutoff_hz": 1.5,
+  "beta_vi_tri": 2.0,
+  "beta_xoay": 1.0,
+  "d_cutoff_hz": 1.0,
+  "giu_dinh_toi_thieu": 0.9,
+  "min_cutoff_root_hz": 0.8,
+  "beta_root": 0.5,
+  "lech_tam_lao_toi_da": 0.02
+ }
+}

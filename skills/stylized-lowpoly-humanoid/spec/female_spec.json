@@ -1,0 +1,26 @@
+{
+ "_doc": "Primal adult female (Boss 25/10/2026 official sheet). Figure units = fraction of reference height (feet 0 \u2192 hair top 1). Body is generated from the cleaned sheet image (Hunyuan3D-2) and aligned/decimated by code; this file holds scale + measured landmarks for the gates.",
+ "scale_m": 1.77,
+ "skin_rgba": [
+  226,
+  160,
+  132,
+  255
+ ],
+ "landmarks": {
+  "scalp_top": 0.96,
+  "bust_peak": 0.715,
+  "underbust": 0.63,
+  "waist": 0.62,
+  "hip_peak": 0.45,
+  "crotch": 0.4,
+  "knee": 0.31,
+  "calf_peak": 0.22,
+  "ankle": 0.12
+ },
+ "bust": {
+  "side_front_peak": 0.102,
+  "side_front_underbust": 0.079,
+  "_doc": "side-view front extent from the ankle axis; protrusion 0.023 figure units \u2248 4.1 cm at 1.77 m"
+ }
+}

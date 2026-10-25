@@ -1,0 +1,307 @@
+{
+ "out": "~/projects/lpm-faceless-humanoid/assets/characters/primal_female_base/female_hair_v1.glb",
+ "tie": {
+  "point": [
+   0.0055,
+   1.5399,
+   -0.0558
+  ],
+  "height_frac_of_head": 0.56,
+  "y": 1.5399
+ },
+ "tris": {
+  "hair_cap__movable": 180,
+  "hair_masses": 518,
+  "ponytail": 110,
+  "tie_band": 64
+ },
+ "tris_total": 872,
+ "masses_per_region": {
+  "crown": 6,
+  "top": 4,
+  "frame": 4,
+  "side": 4,
+  "back": 7
+ },
+ "tail_masses": [
+  {
+   "mass": 0,
+   "length_cm": 39.4,
+   "tip": [
+    0.006,
+    1.199,
+    -0.104
+   ]
+  },
+  {
+   "mass": 1,
+   "length_cm": 33.1,
+   "tip": [
+    -0.05,
+    1.258,
+    -0.108
+   ]
+  },
+  {
+   "mass": 2,
+   "length_cm": 33.1,
+   "tip": [
+    0.061,
+    1.258,
+    -0.108
+   ]
+  },
+  {
+   "mass": 3,
+   "length_cm": 26.0,
+   "tip": [
+    -0.017,
+    1.326,
+    -0.106
+   ]
+  },
+  {
+   "mass": 4,
+   "length_cm": 26.0,
+   "tip": [
+    0.028,
+    1.326,
+    -0.106
+   ]
+  }
+ ],
+ "clumps": [
+  {
+   "region": "crown",
+   "theta": 180,
+   "length_cm": 8.2,
+   "faces": [
+    0,
+    22
+   ]
+  },
+  {
+   "region": "crown",
+   "theta": 120,
+   "length_cm": 8.2,
+   "faces": [
+    22,
+    44
+   ]
+  },
+  {
+   "region": "crown",
+   "theta": 60,
+   "length_cm": 8.2,
+   "faces": [
+    44,
+    66
+   ]
+  },
+  {
+   "region": "crown",
+   "theta": 0,
+   "length_cm": 8.2,
+   "faces": [
+    66,
+    88
+   ]
+  },
+  {
+   "region": "crown",
+   "theta": -60,
+   "length_cm": 8.2,
+   "faces": [
+    88,
+    110
+   ]
+  },
+  {
+   "region": "crown",
+   "theta": -120,
+   "length_cm": 8.2,
+   "faces": [
+    110,
+    132
+   ]
+  },
+  {
+   "region": "top",
+   "theta": -30,
+   "length_cm": 4.9,
+   "faces": [
+    132,
+    154
+   ]
+  },
+  {
+   "region": "top",
+   "theta": -10,
+   "length_cm": 4.9,
+   "faces": [
+    154,
+    176
+   ]
+  },
+  {
+   "region": "top",
+   "theta": 10,
+   "length_cm": 4.9,
+   "faces": [
+    176,
+    198
+   ]
+  },
+  {
+   "region": "top",
+   "theta": 30,
+   "length_cm": 4.9,
+   "faces": [
+    198,
+    220
+   ]
+  },
+  {
+   "region": "frame",
+   "theta": 52.0,
+   "length_cm": 20.5,
+   "faces": [
+    220,
+    234
+   ]
+  },
+  {
+   "region": "frame",
+   "theta": -52.0,
+   "length_cm": 20.5,
+   "faces": [
+    234,
+    248
+   ]
+  },
+  {
+   "region": "frame",
+   "theta": 72.0,
+   "length_cm": 20.5,
+   "faces": [
+    248,
+    262
+   ]
+  },
+  {
+   "region": "frame",
+   "theta": -72.0,
+   "length_cm": 20.5,
+   "faces": [
+    262,
+    276
+   ]
+  },
+  {
+   "region": "side",
+   "theta": 100,
+   "length_cm": 8.2,
+   "faces": [
+    276,
+    298
+   ]
+  },
+  {
+   "region": "side",
+   "theta": 122,
+   "length_cm": 8.2,
+   "faces": [
+    298,
+    320
+   ]
+  },
+  {
+   "region": "side",
+   "theta": -100,
+   "length_cm": 8.2,
+   "faces": [
+    320,
+    342
+   ]
+  },
+  {
+   "region": "side",
+   "theta": -122,
+   "length_cm": 8.2,
+   "faces": [
+    342,
+    364
+   ]
+  },
+  {
+   "region": "back",
+   "theta": 150,
+   "length_cm": 8.2,
+   "faces": [
+    364,
+    386
+   ]
+  },
+  {
+   "region": "back",
+   "theta": 180,
+   "length_cm": 8.2,
+   "faces": [
+    386,
+    408
+   ]
+  },
+  {
+   "region": "back",
+   "theta": -150,
+   "length_cm": 8.2,
+   "faces": [
+    408,
+    430
+   ]
+  },
+  {
+   "region": "back",
+   "theta": 140,
+   "length_cm": 6.6,
+   "faces": [
+    430,
+    452
+   ]
+  },
+  {
+   "region": "back",
+   "theta": 165,
+   "length_cm": 6.6,
+   "faces": [
+    452,
+    474
+   ]
+  },
+  {
+   "region": "back",
+   "theta": -165,
+   "length_cm": 6.6,
+   "faces": [
+    474,
+    496
+   ]
+  },
+  {
+   "region": "back",
+   "theta": -140,
+   "length_cm": 6.6,
+   "faces": [
+    496,
+    518
+   ]
+  }
+ ],
+ "clumps_per_region": {
+  "crown": 6,
+  "top": 4,
+  "frame": 4,
+  "side": 4,
+  "back": 7
+ }
+}

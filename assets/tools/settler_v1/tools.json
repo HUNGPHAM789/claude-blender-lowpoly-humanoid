@@ -1,0 +1,71 @@
+{
+ "hop_dong": "gốc = tâm chỗ cầm; trục cán = +Z; phía làm việc = +X; khớp socket cam_* (trụ Ø32, --co 1)",
+ "mon": {
+  "riu": {
+   "mo_ta": "rìu chặt cây",
+   "tam_giac": 40,
+   "dai_m": 0.785,
+   "r_can_mm": 14.7
+  },
+  "riu_dai": {
+   "mo_ta": "rìu hai tay",
+   "tam_giac": 40,
+   "dai_m": 1.105,
+   "r_can_mm": 14.7
+  },
+  "pickaxe": {
+   "mo_ta": "cuốc chim đập đá",
+   "tam_giac": 148,
+   "dai_m": 0.996,
+   "r_can_mm": 14.9
+  },
+  "cuoc_dat": {
+   "mo_ta": "cuốc đất",
+   "tam_giac": 52,
+   "dai_m": 1.23,
+   "r_can_mm": 14.8
+  },
+  "xeng": {
+   "mo_ta": "xẻng",
+   "tam_giac": 44,
+   "dai_m": 1.32,
+   "r_can_mm": 15.4
+  },
+  "cung": {
+   "mo_ta": "cung săn hươu",
+   "tam_giac": 232,
+   "dai_m": 1.364,
+   "r_can_mm": 14.0
+  },
+  "lao": {
+   "mo_ta": "lao săn",
+   "tam_giac": 128,
+   "dai_m": 1.87,
+   "r_can_mm": 14.0
+  },
+  "mui_ten": {
+   "mo_ta": "mũi tên",
+   "tam_giac": 40,
+   "dai_m": 0.75,
+   "r_can_mm": null
+  },
+  "can_cau": {
+   "mo_ta": "cần câu",
+   "tam_giac": 180,
+   "dai_m": 2.072,
+   "r_can_mm": 14.5
+  },
+  "binh_tuoi": {
+   "mo_ta": "bình tưới",
+   "tam_giac": 108,
+   "dai_m": 0.482,
+   "r_can_mm": 14.0
+  },
+  "gio_berry": {
+   "mo_ta": "giỏ hái berry",
+   "tam_giac": 268,
+   "dai_m": 0.353,
+   "r_can_mm": 14.0
+  }
+ }
+}

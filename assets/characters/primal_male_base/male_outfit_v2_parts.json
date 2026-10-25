@@ -1,0 +1,159 @@
+{
+ "out": "~/projects/lpm-faceless-humanoid/assets/characters/primal_male_base/male_outfit_v2.glb",
+ "G_m": 0.496,
+ "belt_y": 1.1169,
+ "tris": {
+  "skirt_shell__movable": 128,
+  "skirt_tan_reveals": 120,
+  "skirt_under_panels": 210,
+  "skirt_main_panels": 304,
+  "rope_belt": 120,
+  "stone": 36
+ },
+ "skirt_tris": 762,
+ "panels": [
+  {
+   "panel_id": "main_0",
+   "overlap_group": "main",
+   "theta": 26.2,
+   "tip_y": 0.754
+  },
+  {
+   "panel_id": "main_1",
+   "overlap_group": "main",
+   "theta": 66.1,
+   "tip_y": 0.781
+  },
+  {
+   "panel_id": "main_2",
+   "overlap_group": "main",
+   "theta": 118.5,
+   "tip_y": 0.764
+  },
+  {
+   "panel_id": "main_3",
+   "overlap_group": "main",
+   "theta": 162.3,
+   "tip_y": 0.751
+  },
+  {
+   "panel_id": "main_4",
+   "overlap_group": "main",
+   "theta": 204.6,
+   "tip_y": 0.805
+  },
+  {
+   "panel_id": "main_5",
+   "overlap_group": "main",
+   "theta": 242.3,
+   "tip_y": 0.763
+  },
+  {
+   "panel_id": "main_6",
+   "overlap_group": "main",
+   "theta": 297.2,
+   "tip_y": 0.749
+  },
+  {
+   "panel_id": "main_7",
+   "overlap_group": "main",
+   "theta": 337.5,
+   "tip_y": 0.779
+  },
+  {
+   "panel_id": "under_0",
+   "overlap_group": "under",
+   "theta": 3.1,
+   "tip_y": 0.661
+  },
+  {
+   "panel_id": "under_1",
+   "overlap_group": "under",
+   "theta": 43.2,
+   "tip_y": 0.7
+  },
+  {
+   "panel_id": "under_2",
+   "overlap_group": "under",
+   "theta": 86.5,
+   "tip_y": 0.659
+  },
+  {
+   "panel_id": "under_3",
+   "overlap_group": "under",
+   "theta": 137.0,
+   "tip_y": 0.654
+  },
+  {
+   "panel_id": "under_5",
+   "overlap_group": "under",
+   "theta": 228.0,
+   "tip_y": 0.664
+  },
+  {
+   "panel_id": "under_6",
+   "overlap_group": "under",
+   "theta": 267.4,
+   "tip_y": 0.69
+  },
+  {
+   "panel_id": "under_7",
+   "overlap_group": "under",
+   "theta": 313.2,
+   "tip_y": 0.666
+  },
+  {
+   "panel_id": "tan_0",
+   "lining_reveal_id": 0,
+   "overlap_group": "tan",
+   "theta": 37.2,
+   "tip_y": 0.641
+  },
+  {
+   "panel_id": "tan_1",
+   "lining_reveal_id": 1,
+   "overlap_group": "tan",
+   "theta": 143.0,
+   "tip_y": 0.637
+  },
+  {
+   "panel_id": "tan_2",
+   "lining_reveal_id": 2,
+   "overlap_group": "tan",
+   "theta": 222.0,
+   "tip_y": 0.622
+  },
+  {
+   "panel_id": "tan_3",
+   "lining_reveal_id": 3,
+   "overlap_group": "tan",
+   "theta": 319.2,
+   "tip_y": 0.642
+  }
+ ],
+ "counts": {
+  "main": 8,
+  "under": 7,
+  "tan_reveals": 4
+ },
+ "closed_before_flat_export": {
+  "skirt_shell__movable": false,
+  "skirt_tan_reveals": true,
+  "skirt_under_panels": true,
+  "skirt_main_panels": true,
+  "rope_belt": true,
+  "stone": true
+ },
+ "masks": {
+  "fit_movable": [
+   "skirt_shell__movable"
+  ],
+  "protect_outer": [
+   "skirt_tan_reveals",
+   "skirt_under_panels",
+   "skirt_main_panels",
+   "rope_belt",
+   "stone"
+  ]
+ }
+}

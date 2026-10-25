@@ -1,0 +1,114 @@
+{
+ "sex": "female",
+ "tris": 200,
+ "midline_x_cm": 0.9,
+ "bridge_gap_cm": 2.1,
+ "tilt_deg": -2.5,
+ "params": {
+  "width": 0.056,
+  "angle_deg": null,
+  "curve": 0.005,
+  "thickness": 1.0,
+  "surface_offset": 0.0
+ },
+ "control_points": [
+  {
+   "name": "head",
+   "x_from_midline_cm": 1.05,
+   "centre_y": 1.5333,
+   "ridge_y": 1.5354,
+   "ridge_dev_cm": -0.76,
+   "normal_lower": [
+    0.187,
+    -0.067,
+    0.98
+   ],
+   "height_cm": 1.1
+  },
+  {
+   "name": "inner_body",
+   "x_from_midline_cm": 1.89,
+   "centre_y": 1.535,
+   "ridge_y": 1.5304,
+   "ridge_dev_cm": -0.05,
+   "normal_lower": [
+    0.187,
+    -0.067,
+    0.98
+   ],
+   "height_cm": 1.03
+  },
+  {
+   "name": "inner_peak",
+   "x_from_midline_cm": 2.84,
+   "centre_y": 1.536,
+   "ridge_y": 1.5279,
+   "ridge_dev_cm": 0.34,
+   "normal_lower": [
+    0.255,
+    -0.118,
+    0.96
+   ],
+   "height_cm": 0.94
+  },
+  {
+   "name": "peak",
+   "x_from_midline_cm": 3.85,
+   "centre_y": 1.5358,
+   "ridge_y": 1.5304,
+   "ridge_dev_cm": 0.11,
+   "normal_lower": [
+    0.477,
+    -0.224,
+    0.85
+   ],
+   "height_cm": 0.85
+  },
+  {
+   "name": "outer_peak",
+   "x_from_midline_cm": 4.75,
+   "centre_y": 1.5344,
+   "ridge_y": 1.5279,
+   "ridge_dev_cm": 0.27,
+   "normal_lower": [
+    0.587,
+    -0.242,
+    0.773
+   ],
+   "height_cm": 0.77
+  },
+  {
+   "name": "outer_body",
+   "x_from_midline_cm": 5.7,
+   "centre_y": 1.532,
+   "ridge_y": 1.5279,
+   "ridge_dev_cm": 0.06,
+   "normal_lower": [
+    0.722,
+    -0.166,
+    0.672
+   ],
+   "height_cm": 0.69
+  },
+  {
+   "name": "tail",
+   "x_from_midline_cm": 6.65,
+   "centre_y": 1.5283,
+   "ridge_y": 1.5504,
+   "ridge_dev_cm": -2.51,
+   "normal_lower": [
+    0.949,
+    -0.075,
+    0.307
+   ],
+   "height_cm": 0.6
+  }
+ ],
+ "ridge_dev_worst_cm": 1.19,
+ "below_socket_rim_mm": 0.0,
+ "ridge_judged_points": 10,
+ "skin_gap_worst_mm": 0.91,
+ "skin_gap_samples": 192,
+ "front_vertices_inside_head": 0,
+ "asymmetry_cm": 0.015
+}

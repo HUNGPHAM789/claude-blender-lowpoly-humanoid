@@ -1,0 +1,48 @@
+{
+  "schema": "LPM.StarterAssetPreset.v1",
+  "id": "starter_mammoth_calf_v1",
+  "family": "animal",
+  "species": "mammoth",
+  "stage": "juvenile",
+  "height_m": 1.5,
+  "body": {
+    "relative_head_multiplier": [
+      1.1,
+      1.18
+    ],
+    "relative_eye_multiplier": [
+      1.15,
+      1.25
+    ],
+    "relative_leg_length_multiplier": [
+      0.82,
+      0.9
+    ]
+  },
+  "features": {
+    "tusk_length_multiplier": [
+      0.45,
+      0.65
+    ],
+    "short_trunk": true,
+    "fluffy_head": true
+  },
+  "seed": 1185,
+  "coordinate_system": "Y_UP_RIGHT_HANDED",
+  "forward": "+Z",
+  "asset_units": "meters",
+  "reference_status": "screenshot_inferred_design_targets_not_measured_source_mesh",
+  "scale_reference": "shoulder_height_or_body_length_as_defined_in_spec",
+  "tri_budget": {
+    "lod0_max": 2600,
+    "lod1_max": 1300,
+    "lod2_max": 650
+  },
+  "rig_required": true,
+  "geometry_contract": {
+    "flat_shading": true,
+    "triangulated_facets": true,
+    "detachable_visual_layers": true
+  },
+  "source_spec": "../STARTER_ANIMALS_SPEC.md"
+}

@@ -1,0 +1,13 @@
+{
+ "out": "~/projects/lpm-faceless-humanoid/assets/characters/primal_female_base/female_outfit_v3.glb",
+ "base": "~/projects/lpm-faceless-humanoid/assets/characters/primal_female_base/female_outfit_v1.glb",
+ "right_from": "/private/tmp/claude-501/-Users-hungpham-projects-GameDev/7859a82b-9edc-4e91-8191-83412351f94f/scratchpad/prim/fem/B_right_v3.glb",
+ "left_vertices_moved": 0,
+ "tris": {
+  "skirt_lining": 271,
+  "skirt_lower_tier": 273,
+  "skirt_upper_tier": 350,
+  "rope_belt": 140,
+  "ornament": 24
+ }
+}

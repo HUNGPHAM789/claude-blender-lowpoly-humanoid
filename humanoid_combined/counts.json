@@ -1,0 +1,127 @@
+{
+ "measured_from": "exported GLB meshes via hm_check.doc_glb, 22/10/2026",
+ "models": {
+  "rut_gon_nam": {
+   "render_tris_body": 1156,
+   "regions": {
+    "eye_patch": 8,
+    "feet": 72,
+    "legs": 288,
+    "hands": 148,
+    "arms": 192,
+    "head": 180,
+    "neck": 24,
+    "torso": 252
+   },
+   "hair": "short",
+   "hair_tris": 48,
+   "parts": 25,
+   "height_m": 1.7478,
+   "arm_shoulder_to_tip_over_H": 0.435,
+   "fingertip_z_over_H": 0.409,
+   "ring_twist_max_deg": 0.65,
+   "lofted_limbs": 10,
+   "hair_gate": [
+    "✅ ⑱ hair (short, 48 tris): 0/4000 samples inside head · scalp gap min 2.1 / median 3.0 mm"
+   ],
+   "gate_rc": 0
+  },
+  "rut_gon_nu": {
+   "render_tris_body": 1156,
+   "regions": {
+    "eye_patch": 8,
+    "feet": 72,
+    "legs": 288,
+    "hands": 148,
+    "arms": 192,
+    "head": 180,
+    "neck": 24,
+    "torso": 252
+   },
+   "hair": "bob",
+   "hair_tris": 50,
+   "parts": 25,
+   "height_m": 1.6479,
+   "arm_shoulder_to_tip_over_H": 0.439,
+   "fingertip_z_over_H": 0.407,
+   "ring_twist_max_deg": 0.65,
+   "lofted_limbs": 10,
+   "hair_gate": [
+    "✅ ⑱ hair (bob, 50 tris): 0/4000 samples inside head · scalp gap min 2.0 / median 2.9 mm"
+   ],
+   "gate_rc": 0
+  },
+  "rut_gon_nam_faceless": {
+   "render_tris_body": 1024,
+   "regions": {
+    "feet": 72,
+    "legs": 288,
+    "hands": 148,
+    "arms": 192,
+    "head": 48,
+    "neck": 24,
+    "torso": 252
+   },
+   "hair": "none",
+   "hair_tris": null,
+   "parts": 23,
+   "height_m": 1.7478,
+   "arm_shoulder_to_tip_over_H": 0.435,
+   "fingertip_z_over_H": 0.409,
+   "ring_twist_max_deg": 0.65,
+   "lofted_limbs": 10,
+   "hair_gate": [],
+   "gate_rc": 0
+  },
+  "chi_tiet_nam": {
+   "render_tris_body": 2368,
+   "regions": {
+    "eye_patch": 8,
+    "feet": 128,
+    "legs": 480,
+    "hands": 584,
+    "arms": 352,
+    "head": 296,
+    "neck": 48,
+    "torso": 480
+   },
+   "hair": "short",
+   "hair_tris": 77,
+   "parts": 27,
+   "height_m": 1.75,
+   "arm_shoulder_to_tip_over_H": 0.426,
+   "fingertip_z_over_H": 0.415,
+   "ring_twist_max_deg": 0.52,
+   "lofted_limbs": 10,
+   "hair_gate": [
+    "✅ ⑱ hair (short, 77 tris): 0/4000 samples inside head · scalp gap min 2.7 / median 3.3 mm"
+   ],
+   "gate_rc": 0
+  },
+  "chi_tiet_nu": {
+   "render_tris_body": 2368,
+   "regions": {
+    "eye_patch": 8,
+    "feet": 128,
+    "legs": 480,
+    "hands": 584,
+    "arms": 352,
+    "head": 296,
+    "neck": 48,
+    "torso": 480
+   },
+   "hair": "bob",
+   "hair_tris": 88,
+   "parts": 27,
+   "height_m": 1.65,
+   "arm_shoulder_to_tip_over_H": 0.425,
+   "fingertip_z_over_H": 0.417,
+   "ring_twist_max_deg": 0.52,
+   "lofted_limbs": 10,
+   "hair_gate": [
+    "✅ ⑱ hair (bob, 88 tris): 0/4000 samples inside head · scalp gap min 2.5 / median 3.2 mm"
+   ],
+   "gate_rc": 0
+  }
+ }
+}

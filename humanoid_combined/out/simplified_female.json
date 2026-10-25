@@ -1,0 +1,252 @@
+{
+ "tier": "rut_gon",
+ "gioi": "nu",
+ "cao": 1.65,
+ "faceless": false,
+ "co_tay": 0.0,
+ "hair": "bob",
+ "phien_ban": "HM 1.0 (LPM 2.6 + detailed v1 + simplified)",
+ "moc_than": {
+  "co_day": 1.3775,
+  "vai": 1.3316,
+  "nguc": 1.24,
+  "duoi_nguc": 1.1621,
+  "eo": 1.0521,
+  "hong": 0.8779,
+  "mong": 0.8275,
+  "mong_duoi": 0.7972,
+  "day_chau": 0.7725
+ },
+ "landmark": {
+  "H": 1.65,
+  "dinh": 1.65,
+  "cam": 1.428,
+  "co_day": 1.38,
+  "vai_tren": 1.334,
+  "vai": [
+   0.15,
+   0.007,
+   1.302
+  ],
+  "canh_tay": 0.282,
+  "cang_tay": 0.246,
+  "hang": [
+   0.09,
+   0.013,
+   0.83
+  ],
+  "day_chau": 0.775,
+  "goi": 0.458,
+  "co_chan": 0.078
+ },
+ "tris_vung": {
+  "torso": 252,
+  "neck": 24,
+  "head": 180,
+  "arms": 192,
+  "hands": 148,
+  "legs": 288,
+  "feet": 72
+ },
+ "tris_tong": 1156,
+ "tris_mat": 8,
+ "tris_toc": 50,
+ "vung": {
+  "than": "torso",
+  "co": "neck",
+  "dau": "head",
+  "tai_L": "head",
+  "tai_R": "head",
+  "canh_tay_L": "arms",
+  "cang_tay_L": "arms",
+  "ban_tay_L": "hands",
+  "ngon1_L": "hands",
+  "ngon2_L": "hands",
+  "cai1_L": "hands",
+  "cai2_L": "hands",
+  "dui_L": "legs",
+  "cang_chan_L": "legs",
+  "ban_chan_L": "feet",
+  "canh_tay_R": "arms",
+  "cang_tay_R": "arms",
+  "ban_tay_R": "hands",
+  "ngon1_R": "hands",
+  "ngon2_R": "hands",
+  "cai1_R": "hands",
+  "cai2_R": "hands",
+  "dui_R": "legs",
+  "cang_chan_R": "legs",
+  "ban_chan_R": "feet"
+ },
+ "head_scale": 0.9407,
+ "chin": 1.425912229208974,
+ "head_top": 1.647912229208974,
+ "bo_phan": [
+  "ban_chan_L",
+  "ban_chan_R",
+  "ban_tay_L",
+  "ban_tay_R",
+  "cai1_L",
+  "cai1_R",
+  "cai2_L",
+  "cai2_R",
+  "cang_chan_L",
+  "cang_chan_R",
+  "cang_tay_L",
+  "cang_tay_R",
+  "canh_tay_L",
+  "canh_tay_R",
+  "co",
+  "dau",
+  "dui_L",
+  "dui_R",
+  "ngon1_L",
+  "ngon1_R",
+  "ngon2_L",
+  "ngon2_R",
+  "tai_L",
+  "tai_R",
+  "than"
+ ],
+ "mat": [
+  "mat_L",
+  "mat_R"
+ ],
+ "socket": {
+  "dau": {
+   "vi_tri": [
+    0.0,
+    0.011,
+    1.4534
+   ],
+   "len": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "HAIR": {
+   "vi_tri": [
+    0.0,
+    -0.0043,
+    1.548
+   ],
+   "len": [
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "cam_L": {
+   "vi_tri": [
+    0.3747,
+    -0.004,
+    0.7471
+   ],
+   "len": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "r": 0.016
+  },
+  "ban_tay_L": {
+   "vi_tri": [
+    0.3731,
+    -0.004,
+    0.8214
+   ],
+   "len": [
+    0.4226,
+    0.0,
+    -0.9063
+   ]
+  },
+  "ban_chan_L": {
+   "vi_tri": [
+    0.0828,
+    0.0165,
+    0.0759
+   ],
+   "len": [
+    0.0,
+    -1.0,
+    0.0
+   ]
+  },
+  "cam_R": {
+   "vi_tri": [
+    -0.3747,
+    -0.004,
+    0.7471
+   ],
+   "len": [
+    0.0,
+    -1.0,
+    0.0
+   ],
+   "r": 0.016
+  },
+  "ban_tay_R": {
+   "vi_tri": [
+    -0.3731,
+    -0.004,
+    0.8214
+   ],
+   "len": [
+    -0.4226,
+    0.0,
+    -0.9063
+   ]
+  },
+  "ban_chan_R": {
+   "vi_tri": [
+    -0.0828,
+    0.0165,
+    0.0759
+   ],
+   "len": [
+    0.0,
+    -1.0,
+    0.0
+   ]
+  },
+  "lung": {
+   "vi_tri": [
+    0.0,
+    0.11,
+    1.1896
+   ],
+   "len": [
+    0.0,
+    1.0,
+    0.0
+   ]
+  },
+  "hong_L": {
+   "vi_tri": [
+    0.1558,
+    0.0,
+    0.9146
+   ],
+   "len": [
+    1.0,
+    0.0,
+    0.0
+   ]
+  },
+  "hong_R": {
+   "vi_tri": [
+    -0.1558,
+    0.0,
+    0.9146
+   ],
+   "len": [
+    -1.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "toa_do": "m, Z-up, feet z=0, faces -Y (GLB: Y-up)"
+}

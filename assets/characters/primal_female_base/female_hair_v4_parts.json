@@ -1,0 +1,78 @@
+{
+ "out": "~/projects/lpm-faceless-humanoid/assets/characters/primal_female_base/female_hair_v4.glb",
+ "from": {
+  "front_of_tie": "~/projects/lpm-faceless-humanoid/assets/characters/primal_female_base/female_hair_v1.glb",
+  "ponytail": "~/projects/lpm-faceless-humanoid/assets/characters/primal_female_base/female_hair_v3.glb"
+ },
+ "tris": {
+  "hair_cap__movable": 180,
+  "hair_masses": 518,
+  "fringe": 132,
+  "ponytail": 210,
+  "tie_rope": 120
+ },
+ "tris_total": 1160,
+ "fringe": [
+  {
+   "side": "R",
+   "azimuth_deg": -9.0,
+   "width_cm": 3.5,
+   "length_cm": 5.2,
+   "tip_above_brow_cm": 2.11,
+   "tip_above_brow_H": 0.077
+  },
+  {
+   "side": "R",
+   "azimuth_deg": -21.0,
+   "width_cm": 4.4,
+   "length_cm": 5.2,
+   "tip_above_brow_cm": 2.22,
+   "tip_above_brow_H": 0.081
+  },
+  {
+   "side": "R",
+   "azimuth_deg": -34.0,
+   "width_cm": 5.5,
+   "length_cm": 4.4,
+   "tip_above_brow_cm": 2.15,
+   "tip_above_brow_H": 0.078
+  },
+  {
+   "side": "L",
+   "azimuth_deg": 9.0,
+   "width_cm": 3.5,
+   "length_cm": 5.2,
+   "tip_above_brow_cm": 2.14,
+   "tip_above_brow_H": 0.078
+  },
+  {
+   "side": "L",
+   "azimuth_deg": 21.0,
+   "width_cm": 4.4,
+   "length_cm": 5.1,
+   "tip_above_brow_cm": 2.12,
+   "tip_above_brow_H": 0.077
+  },
+  {
+   "side": "L",
+   "azimuth_deg": 34.0,
+   "width_cm": 5.5,
+   "length_cm": 4.9,
+   "tip_above_brow_cm": 1.66,
+   "tip_above_brow_H": 0.06
+  }
+ ],
+ "tie": {
+  "point": [
+   0.0055,
+   1.5439,
+   -0.0588
+  ],
+  "rope_ring_semi_axes_cm": [
+   5.6,
+   3.4
+  ]
+ },
+ "clumps": [],
+ "clumps_per_region": {}
+}

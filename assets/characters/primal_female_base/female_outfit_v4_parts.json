@@ -1,0 +1,13 @@
+{
+ "out": "assets/characters/primal_female_base/female_outfit_v4.glb",
+ "base": "assets/characters/primal_female_base/female_outfit_v3.glb",
+ "right_from": "assets/characters/primal_female_base/female_outfit_v2.glb",
+ "left_vertices_moved": 0,
+ "tris": {
+  "skirt_lining": 294,
+  "skirt_lower_tier": 278,
+  "skirt_upper_tier": 340,
+  "rope_belt": 140,
+  "ornament": 24
+ }
+}

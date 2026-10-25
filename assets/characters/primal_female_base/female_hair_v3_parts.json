@@ -1,0 +1,379 @@
+{
+ "out": "~/projects/lpm-faceless-humanoid/assets/characters/primal_female_base/female_hair_v3.glb",
+ "from": "~/projects/lpm-faceless-humanoid/assets/characters/primal_female_base/female_hair_v1.glb",
+ "tie": {
+  "point": [
+   0.0055,
+   1.5439,
+   -0.0588
+  ]
+ },
+ "tris": {
+  "hair_cap__movable": 288,
+  "hair_masses": 518,
+  "ponytail": 210,
+  "tie_band": 64
+ },
+ "tris_total": 1080,
+ "tail_clumps": [
+  {
+   "clump": 0,
+   "length_cm": 41.8,
+   "start_angle_deg": -9.7,
+   "max_bend_deg": 29.1,
+   "bends_deg": [
+    28.2,
+    29.1,
+    28.7
+   ],
+   "thick_tie_cm": 6.3,
+   "thick_mid_cm": 5.4
+  },
+  {
+   "clump": 1,
+   "length_cm": 37.6,
+   "start_angle_deg": -7.3,
+   "max_bend_deg": 28.9,
+   "bends_deg": [
+    26.0,
+    28.9,
+    28.8
+   ],
+   "thick_tie_cm": 6.3,
+   "thick_mid_cm": 5.4
+  },
+  {
+   "clump": 2,
+   "length_cm": 37.6,
+   "start_angle_deg": -6.5,
+   "max_bend_deg": 27.7,
+   "bends_deg": [
+    26.9,
+    27.5,
+    27.7
+   ],
+   "thick_tie_cm": 6.3,
+   "thick_mid_cm": 5.4
+  },
+  {
+   "clump": 3,
+   "length_cm": 32.6,
+   "start_angle_deg": -10.4,
+   "max_bend_deg": 29.4,
+   "bends_deg": [
+    28.2,
+    29.4,
+    26.7
+   ],
+   "thick_tie_cm": 6.3,
+   "thick_mid_cm": 5.4
+  },
+  {
+   "clump": 4,
+   "length_cm": 32.6,
+   "start_angle_deg": -2.8,
+   "max_bend_deg": 27.8,
+   "bends_deg": [
+    26.1,
+    27.8,
+    27.5
+   ],
+   "thick_tie_cm": 6.3,
+   "thick_mid_cm": 5.4
+  },
+  {
+   "clump": 5,
+   "length_cm": 28.4,
+   "start_angle_deg": -10.1,
+   "max_bend_deg": 27.7,
+   "bends_deg": [
+    27.7,
+    26.9,
+    26.0
+   ],
+   "thick_tie_cm": 6.3,
+   "thick_mid_cm": 5.4
+  },
+  {
+   "clump": 6,
+   "length_cm": 28.4,
+   "start_angle_deg": -10.5,
+   "max_bend_deg": 28.9,
+   "bends_deg": [
+    27.3,
+    26.0,
+    28.9
+   ],
+   "thick_tie_cm": 6.3,
+   "thick_mid_cm": 5.4
+  }
+ ],
+ "hairline_table": [
+  [
+   0,
+   1.5801
+  ],
+  [
+   6.4,
+   1.5861
+  ],
+  [
+   12.8,
+   1.5941
+  ],
+  [
+   19.5,
+   1.6021
+  ],
+  [
+   24.3,
+   1.6061
+  ],
+  [
+   33.7,
+   1.6011
+  ],
+  [
+   40,
+   1.5881
+  ],
+  [
+   45,
+   1.5801
+  ]
+ ],
+ "clumps": [
+  {
+   "region": "crown",
+   "theta": 180,
+   "length_cm": 8.2,
+   "faces": [
+    0,
+    22
+   ]
+  },
+  {
+   "region": "crown",
+   "theta": 120,
+   "length_cm": 8.2,
+   "faces": [
+    22,
+    44
+   ]
+  },
+  {
+   "region": "crown",
+   "theta": 60,
+   "length_cm": 8.2,
+   "faces": [
+    44,
+    66
+   ]
+  },
+  {
+   "region": "crown",
+   "theta": 0,
+   "length_cm": 8.2,
+   "faces": [
+    66,
+    88
+   ]
+  },
+  {
+   "region": "crown",
+   "theta": -60,
+   "length_cm": 8.2,
+   "faces": [
+    88,
+    110
+   ]
+  },
+  {
+   "region": "crown",
+   "theta": -120,
+   "length_cm": 8.2,
+   "faces": [
+    110,
+    132
+   ]
+  },
+  {
+   "region": "top",
+   "theta": -30,
+   "length_cm": 4.9,
+   "faces": [
+    132,
+    154
+   ]
+  },
+  {
+   "region": "top",
+   "theta": -10,
+   "length_cm": 4.9,
+   "faces": [
+    154,
+    176
+   ]
+  },
+  {
+   "region": "top",
+   "theta": 10,
+   "length_cm": 4.9,
+   "faces": [
+    176,
+    198
+   ]
+  },
+  {
+   "region": "top",
+   "theta": 30,
+   "length_cm": 4.9,
+   "faces": [
+    198,
+    220
+   ]
+  },
+  {
+   "region": "frame",
+   "theta": 52.0,
+   "length_cm": 20.5,
+   "faces": [
+    220,
+    234
+   ]
+  },
+  {
+   "region": "frame",
+   "theta": -52.0,
+   "length_cm": 20.5,
+   "faces": [
+    234,
+    248
+   ]
+  },
+  {
+   "region": "frame",
+   "theta": 72.0,
+   "length_cm": 20.5,
+   "faces": [
+    248,
+    262
+   ]
+  },
+  {
+   "region": "frame",
+   "theta": -72.0,
+   "length_cm": 20.5,
+   "faces": [
+    262,
+    276
+   ]
+  },
+  {
+   "region": "side",
+   "theta": 100,
+   "length_cm": 8.2,
+   "faces": [
+    276,
+    298
+   ]
+  },
+  {
+   "region": "side",
+   "theta": 122,
+   "length_cm": 8.2,
+   "faces": [
+    298,
+    320
+   ]
+  },
+  {
+   "region": "side",
+   "theta": -100,
+   "length_cm": 8.2,
+   "faces": [
+    320,
+    342
+   ]
+  },
+  {
+   "region": "side",
+   "theta": -122,
+   "length_cm": 8.2,
+   "faces": [
+    342,
+    364
+   ]
+  },
+  {
+   "region": "back",
+   "theta": 150,
+   "length_cm": 8.2,
+   "faces": [
+    364,
+    386
+   ]
+  },
+  {
+   "region": "back",
+   "theta": 180,
+   "length_cm": 8.2,
+   "faces": [
+    386,
+    408
+   ]
+  },
+  {
+   "region": "back",
+   "theta": -150,
+   "length_cm": 8.2,
+   "faces": [
+    408,
+    430
+   ]
+  },
+  {
+   "region": "back",
+   "theta": 140,
+   "length_cm": 6.6,
+   "faces": [
+    430,
+    452
+   ]
+  },
+  {
+   "region": "back",
+   "theta": 165,
+   "length_cm": 6.6,
+   "faces": [
+    452,
+    474
+   ]
+  },
+  {
+   "region": "back",
+   "theta": -165,
+   "length_cm": 6.6,
+   "faces": [
+    474,
+    496
+   ]
+  },
+  {
+   "region": "back",
+   "theta": -140,
+   "length_cm": 6.6,
+   "faces": [
+    496,
+    518
+   ]
+  }
+ ],
+ "clumps_per_region": {
+  "crown": 6,
+  "top": 4,
+  "frame": 4,
+  "side": 4,
+  "back": 7
+ }
+}

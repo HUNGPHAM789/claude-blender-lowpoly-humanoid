@@ -1,0 +1,140 @@
+{
+ "hair": {
+  "tris": {
+   "beard_clumps": 117,
+   "beard_shell": 144,
+   "hair_clumps": 684,
+   "hair_shell": 252
+  },
+  "tris_total": 1197,
+  "clipping": {
+   "beard_clumps": {
+    "samples": 4091,
+    "inside": 0,
+    "deepest_mm": 0.0
+   },
+   "beard_shell": {
+    "samples": 4091,
+    "inside": 0,
+    "deepest_mm": 0.0
+   },
+   "hair_clumps": {
+    "samples": 4532,
+    "inside": 0,
+    "deepest_mm": 0.0
+   },
+   "hair_shell": {
+    "samples": 4141,
+    "inside": 0,
+    "deepest_mm": 0.0
+   }
+  },
+  "standoff_hair_shell_mm": {
+   "median": 8.2,
+   "p90": 11.8,
+   "n": 1616
+  },
+  "scalp_uncovered_frac": 0.0555,
+  "standoff_beard_mm": {
+   "median": 8.7,
+   "p90": 20.1,
+   "n": 415
+  },
+  "face_rays_blocked_of_3": {
+   "eye_L": 0,
+   "eye_R": 0,
+   "nose": 0,
+   "mouth": 3,
+   "cheek_L": 0,
+   "cheek_R": 0
+  }
+ },
+ "outfit": {
+  "tris": {
+   "ornament": 24,
+   "rope_belt": 140,
+   "skirt_upper_tier": 384,
+   "skirt_lower_tier": 288,
+   "skirt_lining": 192
+  },
+  "closed": {
+   "ornament": true,
+   "rope_belt": true,
+   "skirt_upper_tier": true,
+   "skirt_lower_tier": true,
+   "skirt_lining": true
+  },
+  "clipping": {
+   "ornament": {
+    "samples": 4014,
+    "inside": 0,
+    "deepest_mm": 0.0
+   },
+   "rope_belt": {
+    "samples": 4070,
+    "inside": 0,
+    "deepest_mm": 0.0
+   },
+   "skirt_upper_tier": {
+    "samples": 4192,
+    "inside": 19,
+    "deepest_mm": 18.82
+   },
+   "skirt_lower_tier": {
+    "samples": 4144,
+    "inside": 145,
+    "deepest_mm": 18.91
+   },
+   "skirt_lining": {
+    "samples": 4096,
+    "inside": 105,
+    "deepest_mm": 15.89
+   }
+  },
+  "clipping_trunk_only": {
+   "ornament": {
+    "inside": 0,
+    "deepest_mm": 0.0
+   },
+   "rope_belt": {
+    "inside": 0,
+    "deepest_mm": 0.0
+   },
+   "skirt_upper_tier": {
+    "inside": 0,
+    "deepest_mm": 0.0
+   },
+   "skirt_lower_tier": {
+    "inside": 0,
+    "deepest_mm": 0.0
+   },
+   "skirt_lining": {
+    "inside": 0,
+    "deepest_mm": 0.0
+   }
+  },
+  "standoff_skirt_mm_all_in_height_range": {
+   "median": 23.9,
+   "p90": 62.6,
+   "n": 11273
+  },
+  "standoff_skirt_mm_hip_to_waist": {
+   "median": 20.6,
+   "p90": 47.0,
+   "n": 7959
+  },
+  "see_through": {
+   "zone_points": 8454,
+   "misses": 0,
+   "misses_back_buttocks": 0
+  },
+  "groin_rays": {
+   "n": 381,
+   "misses": 0
+  },
+  "hand_points_in_skirt_range": 7698,
+  "hand_samples_inside_skirt_silhouette": 621,
+  "note": "clipping outside the trunk = the rest-pose hands touching the skirt sides (reported, not gated here)"
+ },
+ "fails": []
+}

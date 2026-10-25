@@ -1,0 +1,523 @@
+{
+ "subject": "red deer stag, standing alert (quadruped)",
+ "archetype": "quadruped cervid",
+ "pose": "standing four-square, head up facing +Y, antlers back-up",
+ "frame": {
+  "up": "Z",
+  "forward": "+Y",
+  "right": "+X",
+  "symmetry": "X=0"
+ },
+ "identity_cues": [
+  "branched antlers",
+  "long thin legs with hocks",
+  "slender neck and long narrow head",
+  "white rump/tail patch",
+  "dark hooves"
+ ],
+ "materials": {
+  "fur": {
+   "color": [
+    0.55,
+    0.37,
+    0.24
+   ],
+   "roughness": 0.9
+  },
+  "cream": {
+   "color": [
+    0.9,
+    0.85,
+    0.76
+   ],
+   "roughness": 0.9
+  },
+  "dark": {
+   "color": [
+    0.16,
+    0.13,
+    0.11
+   ],
+   "roughness": 0.7
+  },
+  "antler": {
+   "color": [
+    0.78,
+    0.7,
+    0.58
+   ],
+   "roughness": 0.8
+  },
+  "eye": {
+   "color": [
+    0.13,
+    0.13,
+    0.145
+   ],
+   "roughness": 0.35
+  }
+ },
+ "base_material": "fur",
+ "bounds": [
+  [
+   -0.26,
+   -0.45,
+   -0.005
+  ],
+  [
+   0.26,
+   0.66,
+   1.2
+  ]
+ ],
+ "resolution": 200,
+ "default_blend": 0.03,
+ "target_triangles": 2200,
+ "budget": [
+  1200,
+  3500
+ ],
+ "masses": [
+  {
+   "name": "body",
+   "type": "ellipsoid",
+   "center": [
+    0,
+    0,
+    0.55
+   ],
+   "radii": [
+    0.12,
+    0.31,
+    0.14
+   ],
+   "material": "fur"
+  },
+  {
+   "name": "chest",
+   "type": "ellipsoid",
+   "center": [
+    0,
+    0.2,
+    0.56
+   ],
+   "radii": [
+    0.11,
+    0.13,
+    0.15
+   ],
+   "material": "fur",
+   "blend": 0.05
+  },
+  {
+   "name": "rump",
+   "type": "ellipsoid",
+   "center": [
+    0,
+    -0.22,
+    0.58
+   ],
+   "radii": [
+    0.115,
+    0.13,
+    0.13
+   ],
+   "material": "fur",
+   "blend": 0.05
+  },
+  {
+   "name": "neck",
+   "type": "capsule",
+   "a": [
+    0,
+    0.26,
+    0.62
+   ],
+   "b": [
+    0,
+    0.4,
+    0.84
+   ],
+   "r": [
+    0.07,
+    0.045
+   ],
+   "material": "fur",
+   "blend": 0.05
+  },
+  {
+   "name": "head",
+   "type": "ellipsoid",
+   "center": [
+    0,
+    0.45,
+    0.87
+   ],
+   "radii": [
+    0.05,
+    0.09,
+    0.055
+   ],
+   "material": "fur",
+   "euler": [
+    -25,
+    0,
+    0
+   ],
+   "blend": 0.03
+  },
+  {
+   "name": "muzzle",
+   "type": "ellipsoid",
+   "center": [
+    0,
+    0.53,
+    0.83
+   ],
+   "radii": [
+    0.033,
+    0.06,
+    0.035
+   ],
+   "material": "fur",
+   "euler": [
+    -25,
+    0,
+    0
+   ],
+   "blend": 0.025
+  },
+  {
+   "name": "ear_R",
+   "type": "ellipsoid",
+   "center": [
+    0.065,
+    0.41,
+    0.92
+   ],
+   "radii": [
+    0.022,
+    0.012,
+    0.055
+   ],
+   "material": "fur",
+   "euler": [
+    0,
+    55,
+    0
+   ],
+   "blend": 0.012,
+   "mirror": true,
+   "taper": 0.3
+  },
+  {
+   "name": "upperarm_R",
+   "type": "capsule",
+   "a": [
+    0.07,
+    0.23,
+    0.5
+   ],
+   "b": [
+    0.065,
+    0.25,
+    0.26
+   ],
+   "r": [
+    0.045,
+    0.03
+   ],
+   "material": "fur",
+   "blend": 0.04,
+   "mirror": true
+  },
+  {
+   "name": "forearm_R",
+   "type": "capsule",
+   "a": [
+    0.065,
+    0.25,
+    0.26
+   ],
+   "b": [
+    0.06,
+    0.24,
+    0.035
+   ],
+   "r": [
+    0.026,
+    0.018
+   ],
+   "material": "fur",
+   "blend": 0.015,
+   "mirror": true
+  },
+  {
+   "name": "thigh_R",
+   "type": "capsule",
+   "a": [
+    0.075,
+    -0.24,
+    0.52
+   ],
+   "b": [
+    0.07,
+    -0.31,
+    0.28
+   ],
+   "r": [
+    0.06,
+    0.035
+   ],
+   "material": "fur",
+   "blend": 0.04,
+   "mirror": true
+  },
+  {
+   "name": "shank_R",
+   "type": "capsule",
+   "a": [
+    0.07,
+    -0.31,
+    0.28
+   ],
+   "b": [
+    0.065,
+    -0.26,
+    0.035
+   ],
+   "r": [
+    0.022,
+    0.017
+   ],
+   "material": "fur",
+   "blend": 0.015,
+   "mirror": true
+  },
+  {
+   "name": "fhoof_R",
+   "type": "ellipsoid",
+   "center": [
+    0.06,
+    0.25,
+    0.02
+   ],
+   "radii": [
+    0.02,
+    0.028,
+    0.022
+   ],
+   "material": "dark",
+   "blend": 0.008,
+   "mirror": true
+  },
+  {
+   "name": "hhoof_R",
+   "type": "ellipsoid",
+   "center": [
+    0.065,
+    -0.25,
+    0.02
+   ],
+   "radii": [
+    0.02,
+    0.028,
+    0.022
+   ],
+   "material": "dark",
+   "blend": 0.008,
+   "mirror": true
+  },
+  {
+   "name": "tail",
+   "type": "ellipsoid",
+   "center": [
+    0,
+    -0.36,
+    0.6
+   ],
+   "radii": [
+    0.03,
+    0.035,
+    0.05
+   ],
+   "material": "cream",
+   "euler": [
+    30,
+    0,
+    0
+   ],
+   "blend": 0.015
+  },
+  {
+   "name": "beam_R",
+   "type": "capsule",
+   "a": [
+    0.035,
+    0.43,
+    0.92
+   ],
+   "b": [
+    0.11,
+    0.4,
+    1.02
+   ],
+   "r": [
+    0.013,
+    0.011
+   ],
+   "material": "antler",
+   "blend": 0.006,
+   "mirror": true
+  },
+  {
+   "name": "beam2_R",
+   "type": "capsule",
+   "a": [
+    0.11,
+    0.4,
+    1.02
+   ],
+   "b": [
+    0.15,
+    0.35,
+    1.13
+   ],
+   "r": [
+    0.011,
+    0.008
+   ],
+   "material": "antler",
+   "blend": 0.006,
+   "mirror": true
+  },
+  {
+   "name": "tine1_R",
+   "type": "capsule",
+   "a": [
+    0.07,
+    0.42,
+    0.97
+   ],
+   "b": [
+    0.08,
+    0.5,
+    1.02
+   ],
+   "r": [
+    0.009,
+    0.006
+   ],
+   "material": "antler",
+   "blend": 0.006,
+   "mirror": true
+  },
+  {
+   "name": "tine2_R",
+   "type": "capsule",
+   "a": [
+    0.12,
+    0.39,
+    1.05
+   ],
+   "b": [
+    0.1,
+    0.45,
+    1.11
+   ],
+   "r": [
+    0.009,
+    0.006
+   ],
+   "material": "antler",
+   "blend": 0.006,
+   "mirror": true
+  },
+  {
+   "name": "tine3_R",
+   "type": "capsule",
+   "a": [
+    0.14,
+    0.37,
+    1.09
+   ],
+   "b": [
+    0.19,
+    0.39,
+    1.16
+   ],
+   "r": [
+    0.008,
+    0.005
+   ],
+   "material": "antler",
+   "blend": 0.006,
+   "mirror": true
+  }
+ ],
+ "color_regions": [
+  {
+   "name": "belly",
+   "material": "cream",
+   "center": [
+    0,
+    0.0,
+    0.42
+   ],
+   "radii": [
+    0.09,
+    0.22,
+    0.04
+   ]
+  },
+  {
+   "name": "rump_patch",
+   "material": "cream",
+   "center": [
+    0,
+    -0.33,
+    0.58
+   ],
+   "radii": [
+    0.08,
+    0.05,
+    0.09
+   ]
+  },
+  {
+   "name": "nose",
+   "material": "dark",
+   "center": [
+    0,
+    0.585,
+    0.815
+   ],
+   "radii": [
+    0.025,
+    0.02,
+    0.02
+   ]
+  }
+ ],
+ "eyes": [
+  {
+   "name": "eye_R",
+   "mirror": true,
+   "center": [
+    0.045,
+    0.47,
+    0.89
+   ],
+   "radius": 0.013,
+   "scale": [
+    0.8,
+    1.0,
+    1.0
+   ],
+   "embed": 0.45,
+   "subdiv": 1,
+   "material": "eye"
+  }
+ ],
+ "notes": "Boss 22/10: \u00abgi\u1edd t\u1ea1o c\u00e2y \u2026 \u0111\u00e1 3 variations? V\u00e0 deer?\u00bb \u2014 organic skill (animals excel)."
+}

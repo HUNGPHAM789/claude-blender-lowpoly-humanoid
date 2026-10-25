@@ -1,0 +1,77 @@
+{
+ "armatures": 1,
+ "bones": 23,
+ "bone_names": [
+  "root",
+  "pelvis",
+  "spine",
+  "chest",
+  "front_upper.L",
+  "front_lower.L",
+  "front_paw.L",
+  "front_upper.R",
+  "front_lower.R",
+  "front_paw.R",
+  "neck",
+  "head",
+  "ear_1.L",
+  "ear_2.L",
+  "ear_1.R",
+  "ear_2.R",
+  "tail",
+  "thigh.L",
+  "shin.L",
+  "foot.L",
+  "thigh.R",
+  "shin.R",
+  "foot.R"
+ ],
+ "actions": {
+  "hop": [
+   0.0,
+   18.0
+  ],
+  "hop_inplace": [
+   0.0,
+   18.0
+  ],
+  "idle": [
+   0.0,
+   48.0
+  ],
+  "sniff": [
+   0.0,
+   24.0
+  ]
+ },
+ "meshes": {
+  "Icosphere": {
+   "verts": 42,
+   "skinned": false,
+   "parent": null,
+   "parent_type": "OBJECT",
+   "parent_bone": ""
+  },
+  "rabbit_body": {
+   "verts": 5098,
+   "skinned": true,
+   "parent": "rabbit_rig",
+   "parent_type": "OBJECT",
+   "parent_bone": ""
+  },
+  "rabbit_eye.L": {
+   "verts": 238,
+   "skinned": false,
+   "parent": "rabbit_rig",
+   "parent_type": "BONE",
+   "parent_bone": "head"
+  },
+  "rabbit_eye.R": {
+   "verts": 238,
+   "skinned": false,
+   "parent": "rabbit_rig",
+   "parent_type": "BONE",
+   "parent_bone": "head"
+  }
+ }
+}

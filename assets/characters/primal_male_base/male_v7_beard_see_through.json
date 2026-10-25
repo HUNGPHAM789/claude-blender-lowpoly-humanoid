@@ -1,0 +1,61 @@
+{
+ "front": {
+  "rays": 1862,
+  "see_through": 0,
+  "skin_first": 0,
+  "empty": 0,
+  "background_through_full_silhouette": 0,
+  "bare_cheek_above_beard_line": 0,
+  "sample_hits": [],
+  "where_skin_first_y": null
+ },
+ "left": {
+  "rays": 1975,
+  "see_through": 0,
+  "skin_first": 0,
+  "empty": 0,
+  "background_through_full_silhouette": 0,
+  "bare_cheek_above_beard_line": 0,
+  "sample_hits": [],
+  "where_skin_first_y": null
+ },
+ "right": {
+  "rays": 1741,
+  "see_through": 0,
+  "skin_first": 0,
+  "empty": 0,
+  "background_through_full_silhouette": 0,
+  "bare_cheek_above_beard_line": 0,
+  "sample_hits": [],
+  "where_skin_first_y": null
+ },
+ "q_left": {
+  "rays": 2576,
+  "see_through": 0,
+  "skin_first": 0,
+  "empty": 0,
+  "background_through_full_silhouette": 0,
+  "bare_cheek_above_beard_line": 350,
+  "sample_hits": [],
+  "where_skin_first_y": null
+ },
+ "q_right": {
+  "rays": 2190,
+  "see_through": 7,
+  "skin_first": 7,
+  "empty": 0,
+  "background_through_full_silhouette": 0,
+  "bare_cheek_above_beard_line": 225,
+  "sample_hits": [
+   [
+    0.029,
+    1.563,
+    0.157
+   ]
+  ],
+  "where_skin_first_y": [
+   1.563,
+   1.577
+  ]
+ }
+}

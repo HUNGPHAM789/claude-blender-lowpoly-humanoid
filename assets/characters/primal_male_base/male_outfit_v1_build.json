@@ -1,0 +1,18 @@
+{
+ "out": "~/projects/lpm-faceless-humanoid/assets/characters/primal_male_base/male_outfit_v1.glb",
+ "tris": {
+  "skirt_lining": 192,
+  "skirt_lower_tier": 288,
+  "skirt_upper_tier": 384,
+  "rope_belt": 140,
+  "ornament": 24
+ },
+ "skirt_tris": 864,
+ "top_y": 1.1329,
+ "hem_tip_y": 0.6113999999999999,
+ "upper_tip_y": 0.798097,
+ "lower_valley_y": 0.6880605,
+ "belt_y": 1.1149,
+ "widest_hip_y": 0.8600000000000001,
+ "teeth_per_tier": 8
+}

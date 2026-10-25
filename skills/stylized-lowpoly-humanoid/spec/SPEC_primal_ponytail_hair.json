@@ -1,0 +1,129 @@
+{
+ "spec": "primal_ponytail_hair",
+ "version": "1.0",
+ "date": "2026-10-25",
+ "source": "Hunyuan3D-2 teacher meshes generated from Codex-cleaned asset images of the official primal sheets (references/primal_starter_official_2026-10-25); measured, never shipped",
+ "samples": 3,
+ "base": "SPEC_primal_spiky_hair (female regions) for the rest of the head",
+ "tail": {
+  "length_cm": [
+   18.68,
+   19.8,
+   24.68
+  ],
+  "droop_from_vertical_deg": [
+   35.58,
+   39.9,
+   43.9
+  ],
+  "root_height_on_head_frac": [
+   0.55,
+   0.56,
+   0.57
+  ],
+  "root_behind_head_centre_cm": [
+   11.66,
+   13.1,
+   13.42
+  ],
+  "max_radius_cm": [
+   4.12,
+   4.26,
+   4.64
+  ],
+  "radius_profile_over_max_root_to_tip": [
+   0.74,
+   0.87,
+   0.74,
+   0.57,
+   0.67,
+   0.61,
+   0.73,
+   0.81,
+   1.0,
+   0.67,
+   0.78,
+   0.76,
+   0.62,
+   0.74,
+   0.45,
+   0.36
+  ],
+  "lock_tips": [
+   13.2,
+   14.0,
+   14.8
+  ],
+  "lock_tip_angular_spread_deg": [
+   222.3,
+   237.7,
+   288.5
+  ]
+ },
+ "tie": {
+  "found_in": "2/3 samples",
+  "centre_along_tail_frac": [
+   0.3,
+   0.3,
+   0.3
+  ],
+  "band_width_cm_upper_bound": [
+   6.4,
+   7.0,
+   7.6
+  ],
+  "radius_cm": [
+   4.7,
+   6.5,
+   8.3
+  ],
+  "colour": [
+   196,
+   164,
+   108
+  ],
+  "_note": "band width includes hair touching the tie \u2014 treat as an upper bound; design rule: 2\u20133 cm wide band at 0.28\u20130.31 of the tail"
+ },
+ "gather": {
+  "back_crown_angle_to_root_deg": [
+   113.7,
+   128.7,
+   130.5
+  ],
+  "_note": "teacher hair hangs loose (\u2248110\u2013130\u00b0), it does NOT converge on the tie \u2014 DESIGN CHOICE for the builder: pull the back/crown clumps toward the root"
+ },
+ "palette": {
+  "hair": [
+   58,
+   40,
+   28
+  ],
+  "tie": [
+   196,
+   164,
+   108
+  ]
+ },
+ "tri_budget": {
+  "tail": 500,
+  "tie": 60
+ },
+ "gates": [
+  {
+   "name": "tail",
+   "rule": "analyze_ponytail.py on the built mesh: length, droop, root height inside learned [p10, p90] (\u00b110 %)"
+  },
+  {
+   "name": "taper",
+   "rule": "radius at the tip \u2264 0.5 \u00d7 max radius; max radius in learned range"
+  },
+  {
+   "name": "tie",
+   "rule": "segment_mesh.py --kind hair finds exactly one tie mold within 0.2\u20130.4 of the tail from the root"
+  },
+  {
+   "name": "behind",
+   "rule": "tail centre \u2265 8 cm behind the head centre; never in front of the ears"
+  }
+ ]
+}

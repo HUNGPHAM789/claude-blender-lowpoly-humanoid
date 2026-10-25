@@ -1,0 +1,7 @@
+{
+ "species": "wolf",
+ "status": "landmarks_todo",
+ "note": "same engine (align -> regional radial scale -> root-only deform -> validate -> pose test); needs: joints from skill quadruped-rig-animation, landmark rules (skull, withers, girth at the barrel, tail root), regions (head, neck, withers, barrel, rump, legs), pose list (graze, trot, gallop, lie down, rear). fit_character.py refuses this species until the rules are measured on a real wolf mesh.",
+ "planned_regions": ["head", "neck", "withers", "barrel", "rump", "fore_legs", "hind_legs", "tail_root"],
+ "planned_poses": ["rest", "walk", "trot", "gallop", "graze", "lie_down", "head_up_alert"]
+}

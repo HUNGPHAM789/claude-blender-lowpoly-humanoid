@@ -1,0 +1,36 @@
+{
+ "out": "~/projects/lpm-faceless-humanoid/assets/characters/primal_male_base/male_outfit_v5.glb",
+ "source": "~/projects/lpm-faceless-humanoid/assets/characters/primal_male_base/male_outfit_v1.glb",
+ "side_scale": 0.3,
+ "waist_scale": 0.62,
+ "blend_deg": 22.0,
+ "hand_wedge_deg": {
+  "L": [
+   62.0,
+   93.0
+  ],
+  "R": [
+   -96.1,
+   -63.6
+  ]
+ },
+ "faces_removed_at_hand": {
+  "skirt_lining": 5,
+  "skirt_lower_tier": 16,
+  "skirt_upper_tier": 0
+ },
+ "tris": {
+  "skirt_lining": 187,
+  "skirt_lower_tier": 326,
+  "skirt_upper_tier": 384,
+  "rope_belt": 140,
+  "ornament": 24
+ },
+ "min_edge_mm": {
+  "skirt_lining": 33.05,
+  "skirt_lower_tier": 14.37,
+  "skirt_upper_tier": 15.63,
+  "rope_belt": 15.55,
+  "ornament": 8.11
+ }
+}
